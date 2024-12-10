@@ -11,6 +11,10 @@ module.exports = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        manrope: ["var(--font-manrope)"],
+        mono: ["var(--font-roboto-mono)"],
+      },
     },
   },
   plugins: [],
