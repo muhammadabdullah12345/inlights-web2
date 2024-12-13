@@ -6,11 +6,13 @@ const manrope = Manrope({
 });
 
 import BgVideoPart from "@/components/BgVideo";
+import Stats from "@/components/Stats";
 
 function page() {
   return (
     <div className={`${manrope.variable}`}>
       <BgVideoPart />
+      <Stats />
     </div>
   );
 }
