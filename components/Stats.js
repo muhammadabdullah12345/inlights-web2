@@ -17,9 +17,11 @@ function Stats() {
     >
       <div className="w-[516px] h-[410px] bg-gradient-to-r from-[#1A36A3E5] to-[#020F12] rounded-tr-[150px] rounded-br-[150px] p-[48px] shadow-2xl shadow-[#1A36A3E5]">
         <div>
-          <div className="font-[700] text-[46px]">CO2</div>
+          <div className="font-[700] text-[32px] text-center opacity-70">
+            CO2
+          </div>
           <div className="font-[600] text-[120px]">32.5MT</div>
-          <div className="font-[400] text-[26px] opacity-[70]">
+          <div className="font-[400] text-[26px] opacity-70 text-center">
             Emissions Reduced
           </div>
         </div>
