@@ -17,7 +17,12 @@ function Herosection() {
         Artificial Intelligence
       </p>
 
-      <button className="flex items-center justify-center py-2 px-3 sm:rounded-xl gap-1 sm:gap-2 text-white mt-[35px] bg-[#552DDA] rounded-[7px] text-[14px] sm:text-[16px] sm:px-4 sm:py-3 hover:bg-transparent border-[#552DDA] shadow-lg shadow-[#5144DCF7]  border-[3px]">
+      <button
+        className="flex items-center justify-center py-2 px-3 sm:rounded-xl gap-1 sm:gap-2 text-white mt-[35px] bg-[#552DDA] rounded-[7px] text-[14px] sm:text-[16px] sm:px-4 sm:py-3 hover:bg-transparent border-[#552DDA] shadow-xl shadow-[#5144DCF7]  border-[3px]"
+        style={{
+          boxShadow: "0px 0px 35.7px 0px #5144DCF7",
+        }}
+      >
         <span>Lets talk</span>
         <GoArrowUpRight />
       </button>
@@ -25,20 +30,7 @@ function Herosection() {
       <div className="flex items-center justify-center sm:mt-[35px] mt-[60px] opacity-90 text-white text-[12px] sm:text-[16px]">
         {/* TRUSTED BY */}
       </div>
-      <div className="flex items-center justify-center gap-10 mt-2">
-        {/* <img
-          src="/images/hero-1.png"
-          className="h-[13px] w-[50px] sm:h-[26px] sm:w-[100px]"
-        />
-        <img
-          src="/images/hero-2.png"
-          className="h-[21px] w-[21px] sm:h-[42px] sm:w-[42px]"
-        />
-        <img
-          src="/images/hero-3.png"
-          className="h-[20px] w-[43px] sm:h-[40px] sm:w-[85px]"
-        /> */}
-      </div>
+      <div className="flex items-center justify-center gap-10 mt-2"></div>
       <div className="flex items-center justify-center mt-[35px] opacity-90 text-white sm:text-[16px] text-[12px] h-[94px]">
         IN PARTNERSHIP WITH
       </div>

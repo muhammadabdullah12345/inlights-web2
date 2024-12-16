@@ -7,12 +7,16 @@ const manrope = Manrope({
 
 import BgVideoPart from "@/components/BgVideo";
 import Stats from "@/components/Stats";
+import Product from "@/components/Product";
+import Services from "@/components/Services";
 
 function page() {
   return (
     <div className={`${manrope.variable}`}>
       <BgVideoPart />
       <Stats />
+      <Product />
+      <Services />
     </div>
   );
 }

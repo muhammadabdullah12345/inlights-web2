@@ -15,7 +15,12 @@ function Stats() {
         width: "100%", // Full width
       }}
     >
-      <div className="w-[516px] h-[410px] bg-gradient-to-r from-[#1A36A3E5] to-[#020F12] rounded-tr-[150px] rounded-br-[150px] p-[48px] shadow-2xl shadow-[#1A36A3E5]">
+      <div
+        className="w-[516px] h-[410px] bg-gradient-to-r from-[#1A36A3E5] to-[#020F12] rounded-tr-[150px] rounded-br-[150px] p-[48px] shadow-2xl shadow-[#1A36A3E5]"
+        style={{
+          boxShadow: " 0px 0px 50px 0px #1A36A3CC",
+        }}
+      >
         <div>
           <div className="font-[700] text-[32px] text-center opacity-70">
             CO2
@@ -27,28 +32,48 @@ function Stats() {
         </div>
       </div>
       <div className="grid grid-cols-2 gap-[85px]     items-center justify-center ">
-        <div className="flex flex-col gap-[10px] items-center justify-center bg-[#050919] w-[240px] h-[240px]  rounded-[200px] shadow-lg shadow-[#1A36A3E5]">
+        <div
+          className="flex flex-col gap-[10px] items-center justify-center bg-[#050919] w-[240px] h-[240px]  rounded-[200px] shadow-lg shadow-[#1A36A3E5]"
+          style={{
+            boxShadow: " 0px 0px 30px 0px #1A36A3CC",
+          }}
+        >
           <MdOutlineQueryStats className="opacity-70 h-[20px] w-[20px] lg:text-[46px] sm:h-[40px] sm:w-[40px]" />
           <span className="text-[20px] lg:text-[46px] font-semibold">03+</span>
           <span className="opacity-70 text-[12px] lg:text-[14px] text-center">
             Years of Growth
           </span>
         </div>
-        <div className="flex flex-col gap-[10px] items-center  justify-center bg-[#050919] w-[240px] h-[240px]  rounded-[200px] shadow-lg shadow-[#1A36A3E5]">
+        <div
+          className="flex flex-col gap-[10px] items-center  justify-center bg-[#050919] w-[240px] h-[240px]  rounded-[200px] shadow-lg shadow-[#1A36A3E5]"
+          style={{
+            boxShadow: " 0px 0px 30px 0px #1A36A3CC",
+          }}
+        >
           <MdOutlineHomeWork className="opacity-70 h-[20px] w-[20px] lg:text-[46px] sm:h-[40px] sm:w-[40px]" />
           <span className="text-[20px] lg:text-[46px] font-semibold">03</span>
           <span className="opacity-70 text-[12px] lg:text-[14px] text-center">
             Global Offices
           </span>
         </div>
-        <div className="flex flex-col gap-[10px] items-center  justify-center bg-[#050919] w-[240px] h-[240px]  rounded-[200px] shadow-lg shadow-[#1A36A3E5]">
+        <div
+          className="flex flex-col gap-[10px] items-center  justify-center bg-[#050919] w-[240px] h-[240px]  rounded-[200px] shadow-lg shadow-[#1A36A3E5]"
+          style={{
+            boxShadow: " 0px 0px 30px 0px #1A36A3CC",
+          }}
+        >
           <MdOutlineEmojiObjects className="opacity-70 h-[20px] w-[20px] lg:text-[46px] sm:h-[40px] sm:w-[40px]" />
           <span className="text-[20px] lg:text-[46px] font-semibold">06</span>
           <span className="opacity-70 text-[12px] lg:text-[14px] text-center">
             Products Cultivated
           </span>
         </div>
-        <div className="flex flex-col gap-[10px] items-center  justify-center bg-[#050919] w-[240px] h-[240px]  rounded-[200px] shadow-lg shadow-[#1A36A3E5]">
+        <div
+          className="flex flex-col gap-[10px] items-center  justify-center bg-[#050919] w-[240px] h-[240px]  rounded-[200px] shadow-lg shadow-[#1A36A3E5]"
+          style={{
+            boxShadow: " 0px 0px 30px 0px #1A36A3CC",
+          }}
+        >
           <MdOutlineAddReaction className="opacity-70 h-[20px] w-[20px] lg:text-[46px] sm:h-[40px] sm:w-[40px]" />
           <p className="text-[20px] lg:text-[46px] font-semibold">92%</p>
           <p className="opacity-70 text-[12px] lg:text-[14px] text-center">
