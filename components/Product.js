@@ -12,7 +12,7 @@ function Product() {
 
         <div className="flex flex-col lg:flex-row items-center justify-center sm:gap-[24px] sm:mt-10 mt-5 gap-[5px]">
           <div
-            className="px-5 lg:px-[34px] pt-5 lg:pt-[34px] pb-0 bg-[#13171C] my-5 rounded-[20px] lg:rounded-[34px] relative w-full  lg:w-[50%] h-[591px] shadow-xl "
+            className="px-5 lg:px-[34px] pt-5 lg:pt-[34px] pb-0 bg-[#050919] my-5 rounded-[20px] lg:rounded-[34px] relative w-full  lg:w-[50%] h-[591px] shadow-xl "
             style={{
               boxShadow: " 0px 0px 30px 0px #1A36A3CC",
             }}
@@ -41,7 +41,7 @@ function Product() {
           </div>
 
           <div
-            className="px-5 lg:px-[34px] pt-5 lg:pt-[34px] pb-0 bg-[#13171C] my-5 rounded-[20px] lg:rounded-[34px] relative w-full  lg:w-[50%] h-[591px] shadow-xl shadow-[#1A36A3CC]"
+            className="px-5 lg:px-[34px] pt-5 lg:pt-[34px] pb-0 bg-[#050919] my-5 rounded-[20px] lg:rounded-[34px] relative w-full  lg:w-[50%] h-[591px] shadow-xl shadow-[#1A36A3CC]"
             style={{
               boxShadow: " 0px 0px 30px 0px #1A36A3CC",
             }}
