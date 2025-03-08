@@ -59,23 +59,7 @@ function GeoFeedback() {
           <p>{testimonials[currentIndex].text}</p>
         </div>
 
-        <div className="flex items-center justify-between">
-          {/* Navigation Arrows */}
-          <button
-            onClick={prevTestimonial}
-            className=" bg-gray-700 p-2 rounded-full text-white hover:bg-gray-600"
-          >
-            <FaArrowLeft size={20} />
-          </button>
-          <button
-            onClick={nextTestimonial}
-            className=" bg-gray-700 p-2 rounded-full text-white hover:bg-gray-600"
-          >
-            <FaArrowRight size={20} />
-          </button>
-        </div>
-
-        <div className="flex flex-col gap-2 items-center justify-center">
+        <div className="flex flex-col gap-2 items-center justify-center mt-6">
           <img
             src={testimonials[currentIndex].image}
             alt={testimonials[currentIndex].name}
@@ -87,20 +71,6 @@ function GeoFeedback() {
           <p className="text-[12px] text-white opacity-50">
             {testimonials[currentIndex].role}
           </p>
-        </div>
-
-        {/* Dots Navigation */}
-        <div className="flex items-center justify-center mt-8 gap-2">
-          {testimonials.map((_, index) => (
-            <span
-              key={index}
-              className={`w-2 h-2 rounded-full ${
-                index === currentIndex
-                  ? "bg-white rounded-none w-5 rounded-md"
-                  : "bg-gray-500"
-              }`}
-            />
-          ))}
         </div>
       </div>
     </div>

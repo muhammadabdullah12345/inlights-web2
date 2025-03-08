@@ -1,4 +1,3 @@
-import { MdEmail } from "react-icons/md";
 import { FiFacebook, FiInstagram, FiLinkedin } from "react-icons/fi";
 import { CiLinkedin } from "react-icons/ci";
 import { GoArrowUpRight } from "react-icons/go";

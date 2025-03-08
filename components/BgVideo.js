@@ -1,6 +1,3 @@
-// import Herosection from "./Herosection";
-// import Navbar from "./Navbar";
-
 import Header from "./Header";
 import Herosection from "./Herosection";
 

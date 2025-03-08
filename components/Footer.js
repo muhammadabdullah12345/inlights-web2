@@ -1,3 +1,4 @@
+import { FaLinkedin, FaYoutube } from "react-icons/fa6";
 import { GoArrowUpRight } from "react-icons/go";
 
 function Footer() {
@@ -43,12 +44,20 @@ function Footer() {
             <GoArrowUpRight />
           </button>
         </div>
-        <img src="/images/footer.png" alt="Footer Decoration" />
+        <div className="flex gap-5">
+          <a href="">
+            <FaYoutube className="w-[23px] h-[23px] text-white" />
+          </a>
+          <a href="">
+            <FaLinkedin className="w-[23px] h-[23px] text-white" />
+          </a>
+        </div>
+        {/* <img src="/images/footer.png" alt="Footer Decoration" /> */}
       </div>
       <div className="mt-[24px] bg-[#6b6a6a] h-[1px] w-full"></div>
       <div className="flex items-center justify-between text-[14px] mt-[24px]">
         <span>admin@inlights.com.pk</span>
-        <span>&copy; 2024 Inlights. All rights reserved.</span>
+        <span>&copy; 2025 Inlights. All rights reserved.</span>
       </div>
     </div>
   );

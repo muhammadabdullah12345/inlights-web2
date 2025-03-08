@@ -1,32 +1,11 @@
 "use client";
-import { useState } from "react";
 
 import { IoIosArrowDown } from "react-icons/io";
-import { HiMenu } from "react-icons/hi"; // Import hamburger menu icon
-import { AiOutlineClose } from "react-icons/ai"; // Import close icon for the sidebar
 import { GoArrowUpRight } from "react-icons/go";
 function Header() {
-  const [isSidebarOpen, setSidebarOpen] = useState(false);
-
-  // Toggle sidebar visibility
-  const toggleSidebar = () => {
-    setSidebarOpen(!isSidebarOpen);
-  };
   return (
     <div className="relative z-50 font-manrope">
-      {/* Hamburger Menu for smaller screens */}
-      <div className="lg:hidden flex items-center justify-between px-5 py-3 bg-opacity-60 bg-black cursor-pointer">
-        <img src="/images/logo.png" className="h-[12px] w-auto sm:h-[18px]" />
-        <button onClick={toggleSidebar}>
-          {isSidebarOpen ? (
-            <AiOutlineClose className="text-white" size={20} />
-          ) : (
-            <HiMenu className="text-white" size={20} />
-          )}
-        </button>
-      </div>
-
-      <div className="hidden lg:flex items-center justify-between px-10 py-3 text-white cursor-pointer">
+      <div className="hidden lg:flex items-center justify-between px-10 py-3 text-white cursor-pointer bg-transparent">
         <div>
           <img src="/images/logo.png" className="h-[18px] w-auto" />
         </div>
@@ -183,7 +162,7 @@ function Header() {
             </div>
           </div>
         </nav>
-        <div className="flex items-center gap-2 py-2 px-5 border-[3px] border-[#5144DCF7] rounded-xl hover:bg-[#5144DCF7] font-[500]">
+        <div className="flex items-center gap-2 py-2 px-5 border-[3px] border-[#5144DCF7] rounded-xl font-[500] hover:bg-[#5144DCF7] hover:shadow-[0px_0px_35.7px_0px_#5144DCF7] shadow-lg">
           <button>Join Us</button>
           <GoArrowUpRight />
         </div>
@@ -193,3 +172,5 @@ function Header() {
 }
 
 export default Header;
+
+// bg-[#03030E]

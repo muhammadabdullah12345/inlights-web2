@@ -6,7 +6,7 @@ import { MdOutlineAddReaction } from "react-icons/md";
 function Stats() {
   return (
     <div
-      className="bg-black text-white md:py-[81px] relative py-[51px] flex gap-[145px] items-center font-manrope"
+      className="bg-black text-white md:py-[81px] relative py-[51px] flex  items-center font-manrope justify-between pr-28"
       style={{
         backgroundImage: "url('/images/statsback.png')", // Path to your image
         backgroundSize: "cover", // Ensures the image covers the entire container
