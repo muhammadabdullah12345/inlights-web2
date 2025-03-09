@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { GoArrowUpRight } from "react-icons/go";
 
 function Services() {
@@ -15,10 +16,11 @@ function Services() {
               boxShadow: " 0px 0px 30px 0px #1A36A3CC",
             }}
           >
-            <img
+            <Image
               src="/images/service4.png"
-              className="w-[48px] h-[48px] md:w-[72px] md:h-[72px]"
               alt="Service 1"
+              width={72}
+              height={72}
             />
             <p className="text-[16px] lg:text-[20px] font-semibold mt-2 text-white">
               Web Development
@@ -39,10 +41,11 @@ function Services() {
               boxShadow: " 0px 0px 30px 0px #1A36A3CC",
             }}
           >
-            <img
+            <Image
               src="/images/service3.png"
-              className="w-[48px] h-[48px] md:w-[72px] md:h-[72px]"
               alt="Service 1"
+              width={72}
+              height={72}
             />
             <p className="text-[16px] lg:text-[20px] font-semibold mt-2 text-white">
               Product Design
@@ -63,10 +66,11 @@ function Services() {
               boxShadow: " 0px 0px 30px 0px #1A36A3CC",
             }}
           >
-            <img
+            <Image
               src="/images/service2.png"
-              className="w-[48px] h-[48px] md:w-[72px] md:h-[72px]"
               alt="Service 1"
+              width={72}
+              height={72}
             />
             <p className="text-[16px] lg:text-[20px] font-semibold mt-2 text-white">
               Computer Vision
@@ -87,10 +91,11 @@ function Services() {
               boxShadow: " 0px 0px 30px 0px #1A36A3CC",
             }}
           >
-            <img
+            <Image
               src="/images/service1.png"
-              className="w-[48px] h-[48px] md:w-[72px] md:h-[72px]"
               alt="Service 1"
+              width={72}
+              height={72}
             />
             <p className="text-[16px] lg:text-[20px] font-semibold mt-2 text-white">
               AI Automation

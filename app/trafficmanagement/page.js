@@ -1,4 +1,5 @@
 import Header from "@/components/Header";
+import Image from "next/image";
 import { GoArrowUpRight } from "react-icons/go";
 
 function page() {
@@ -40,10 +41,11 @@ function page() {
             <GoArrowUpRight />
           </button>
           <div className="absolute bottom-0">
-            <img
+            <Image
               src="/images/traf.png"
-              alt=""
-              className="w-[1000px] h-[250px]  "
+              alt="traffic"
+              height={250}
+              width={1000}
             />
           </div>
         </div>
@@ -68,7 +70,12 @@ function page() {
           </p>
         </div>
         <div>
-          <img src="/images/geohealth3.png" alt="" />
+          <Image
+            src="/images/geohealth3.png"
+            alt="traffic"
+            height={655}
+            width={489}
+          />
         </div>
       </div>
     </div>

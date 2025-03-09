@@ -1,4 +1,5 @@
 // "use client";
+import Image from "next/image";
 import { FaLocationArrow } from "react-icons/fa6";
 import { GoArrowUpRight } from "react-icons/go";
 function Herosection() {
@@ -35,19 +36,9 @@ function Herosection() {
         IN PARTNERSHIP WITH
       </div>
       <div className="flex items-center justify-center gap-10  mb-[60px] sm:mb-[35px] pb-[20px]">
-        <img
-          src="/images/hero-2.png"
-          className="h-[21px] w-[21px] sm:h-[54px] sm:w-[53px]"
-        />
-
-        <img
-          src="/images/hero-4.png"
-          className="h-[12px] w-[53px] sm:h-[24px] sm:w-[107px]"
-        />
-        <img
-          src="/images/hero-3.png"
-          className="h-[20px] w-[43px] sm:h-[54px] sm:w-[54px]"
-        />
+        <Image src="/images/hero-2.png" width={53} height={54} alt="ntdp" />
+        <Image src="/images/hero-4.png" height={24} width={107} alt="sdaia" />
+        <Image src="/images/hero-3.png" width={54} height={54} alt="nstp" />
       </div>
     </div>
   );

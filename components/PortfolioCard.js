@@ -2,6 +2,7 @@ import { FaNode } from "react-icons/fa";
 import { SiMongodb } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
 import { MdArrowOutward } from "react-icons/md";
+import Image from "next/image";
 function PortfolioCard() {
   return (
     <div
@@ -12,10 +13,12 @@ function PortfolioCard() {
     >
       {/* <!-- Left Section (Image) --> */}
       <div className="relative   overflow-hidden rounded-lg ">
-        <img
+        <Image
           src="/images/bg-success2.png"
           alt="Manufacturing"
-          className="object-cover h-[189px]"
+          className="object-cover"
+          height={189}
+          width={285}
         />
         <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
           <span className="text-white text-lg font-semibold">

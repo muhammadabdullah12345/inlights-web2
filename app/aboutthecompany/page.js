@@ -1,4 +1,5 @@
 import Header from "@/components/Header";
+import Image from "next/image";
 
 function page() {
   return (
@@ -41,7 +42,7 @@ function page() {
         }}
       >
         <h1 className="font-[500] text-[40px]">A Brief History</h1>
-        <img src="/images/about1.png" alt="" className="" />
+        <Image src="/images/about1.png" alt="about" height={270} width={1143} />
       </div>
     </div>
   );

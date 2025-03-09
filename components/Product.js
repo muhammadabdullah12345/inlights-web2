@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { GoArrowUpRight } from "react-icons/go";
 
 function Product() {
@@ -32,11 +33,12 @@ function Product() {
               <span>Discover Insights</span>
               <GoArrowUpRight />
             </p>
-            <img
+            <Image
               src="/images/product1.png"
               alt="product1"
-              //   className="w-full lg:w-[80%] h-auto mt-5 lg:mt-10"
-              className="w-full lg:w-[566px] h-auto mt-[98px] absolute bottom-0 mx-[-25px]"
+              height={307}
+              width={566}
+              className=" mt-[98px] absolute bottom-0 mx-[-25px]"
             />
           </div>
 
@@ -61,11 +63,12 @@ function Product() {
               <span>Discover Insights</span>
               <GoArrowUpRight />
             </p>
-            <img
+            <Image
               src="/images/product2.png"
               alt="product1"
-              //   className="w-full lg:w-[80%] h-auto mt-5 lg:mt-10"
-              className="w-full lg:w-[561px] h-auto mt-5 lg:mt-11 absolute bottom-0 mx-[-15px]"
+              width={561}
+              height={320}
+              className=" mt-5 lg:mt-11 absolute bottom-0 mx-[-15px]"
             />
           </div>
         </div>

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { FaLinkedin, FaYoutube } from "react-icons/fa6";
 import { GoArrowUpRight } from "react-icons/go";
 
@@ -6,7 +7,7 @@ function Footer() {
     <div className="pt-[80px] pb-[30px] px-5 lg:px-[120px] bg-[#0D0D1D] text-white font-manrope">
       <div className="flex flex-col md:flex-row justify-between">
         <div>
-          <img src="/images/logo.png" alt="InLights Logo" />
+          <Image src="/images/logo.png" alt="Logo" height={18} width={155} />
           <div className="text-[#B5B5B5] text-[14px]">
             <p className="mt-4">INLIGHTS</p>
             <p>HQ - The Garage, KACST, Riyadh, Saudi Arabia</p>
@@ -52,7 +53,6 @@ function Footer() {
             <FaLinkedin className="w-[23px] h-[23px] text-white" />
           </a>
         </div>
-        {/* <img src="/images/footer.png" alt="Footer Decoration" /> */}
       </div>
       <div className="mt-[24px] bg-[#6b6a6a] h-[1px] w-full"></div>
       <div className="flex items-center justify-between text-[14px] mt-[24px]">

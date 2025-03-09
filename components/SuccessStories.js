@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { FaArrowLeftLong, FaArrowRightLong } from "react-icons/fa6";
 import { GoArrowUpRight } from "react-icons/go";
 
@@ -30,10 +31,12 @@ function SuccessStories() {
             <p className="flex items-center justify-center text-white z-[5] absolute">
               GeoHealth
             </p>
-            <img
+            <Image
               src="/images/bg-success1.png"
-              className="h-[174px] rounded-[18px] w-full object-cover blur-[2px]"
+              className=" rounded-[18px] object-cover blur-[2px]"
               alt="Education Project"
+              width={414}
+              height={174}
             />
             <div className="absolute inset-0 bg-black bg-opacity-60"></div>
           </div>
@@ -64,10 +67,12 @@ function SuccessStories() {
             <p className="flex items-center justify-center text-white z-[5] absolute">
               Manufacturing
             </p>
-            <img
+            <Image
               src="/images/bg-success2.png"
-              className="h-[174px] rounded-[18px] w-full object-cover blur-[2px]"
+              className=" rounded-[18px]  object-cover blur-[2px]"
               alt="Manufacturing Project"
+              width={414}
+              height={174}
             />
             <div className="absolute inset-0 bg-black bg-opacity-60"></div>
           </div>
@@ -98,10 +103,12 @@ function SuccessStories() {
             <p className="flex items-center justify-center text-white z-[5] absolute">
               Health Care
             </p>
-            <img
+            <Image
               src="/images/bg-success3.png"
-              className="h-[174px] rounded-[18px] w-full object-cover blur-[2px]"
+              className=" rounded-[18px]  object-cover blur-[2px]"
               alt="Health Care Project"
+              width={414}
+              height={174}
             />
             <div className="absolute inset-0 bg-black bg-opacity-60"></div>
           </div>

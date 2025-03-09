@@ -2,12 +2,13 @@
 
 import { IoIosArrowDown } from "react-icons/io";
 import { GoArrowUpRight } from "react-icons/go";
+import Image from "next/image";
 function Header() {
   return (
     <div className="relative z-50 font-manrope">
       <div className="hidden lg:flex items-center justify-between px-10 py-3 text-white cursor-pointer bg-transparent">
         <div>
-          <img src="/images/logo.png" className="h-[18px] w-auto" />
+          <Image src="/images/logo.png" width={155} height={18} alt="logo" />
         </div>
         <nav className="flex items-center gap-6">
           <div className="font-[600]">Home</div>
@@ -23,17 +24,21 @@ function Header() {
               </p>
               <div className="flex gap-5">
                 <div className="bg-[#03030E] mt-5 w-[183px] h-[151px] p-[20px] rounded-[24px] flex flex-col gap-[16px] items-center justify-center shadow-lg shadow-[#1A36A3CC]">
-                  <img
+                  <Image
                     src="/images/service1.png"
-                    className="h-[40px] w-[40px]"
+                    alt="logo"
+                    height={40}
+                    width={40}
                   />
                   <p className="text-[16px] font-[400] mt-2">Web Development</p>
                 </div>
 
                 <div className="bg-[#03030E] mt-5 w-[183px] h-[151px] p-[20px] rounded-[24px] flex flex-col gap-[16px] items-center justify-center shadow-lg shadow-[#1A36A3CC]">
-                  <img
+                  <Image
                     src="/images/service2.png"
-                    className="h-[40px] w-[40px]"
+                    alt="logo"
+                    height={40}
+                    width={40}
                   />
                   <p className="text-[16px] font-[400] mt-2">Product Design</p>
                 </div>
@@ -44,17 +49,21 @@ function Header() {
               </p>
               <div className="flex gap-5">
                 <div className="bg-[#03030E] mt-5 w-[183px] h-[151px] p-[20px] rounded-[24px] flex flex-col gap-[16px] items-center justify-center shadow-lg shadow-[#1A36A3CC]">
-                  <img
+                  <Image
                     src="/images/service3.png"
-                    className="h-[40px] w-[40px]"
+                    alt="logo"
+                    height={40}
+                    width={40}
                   />
                   <p className="text-[16px] font-[400] mt-2">Computer Vision</p>
                 </div>
 
                 <div className="bg-[#03030E] mt-5 w-[183px] h-[151px] p-[20px] rounded-[24px] flex flex-col gap-[16px] items-center justify-center shadow-lg shadow-[#1A36A3CC]">
-                  <img
+                  <Image
                     src="/images/service4.png"
-                    className="h-[40px] w-[40px]"
+                    alt="logo"
+                    height={40}
+                    width={40}
                   />
                   <p className="text-[16px] font-[400] mt-2">AI Automation</p>
                 </div>
@@ -73,17 +82,21 @@ function Header() {
               </p>
               <div className="flex gap-5">
                 <div className="bg-[#03030E] mt-5 w-[183px] h-[151px] p-[20px] rounded-[24px] flex flex-col gap-[16px] items-center justify-center shadow-lg shadow-[#1A36A3CC]">
-                  <img
+                  <Image
                     src="/images/service1.png"
-                    className="h-[40px] w-[40px]"
+                    alt="logo"
+                    height={40}
+                    width={40}
                   />
                   <p className="text-[16px] font-[400] mt-2">Web Development</p>
                 </div>
 
                 <div className="bg-[#03030E] mt-5 w-[183px] h-[151px] p-[20px] rounded-[24px] flex flex-col gap-[16px] items-center justify-center shadow-lg shadow-[#1A36A3CC]">
-                  <img
+                  <Image
                     src="/images/service2.png"
-                    className="h-[40px] w-[40px]"
+                    alt="logo"
+                    height={40}
+                    width={40}
                   />
                   <p className="text-[16px] font-[400] mt-2">Product Design</p>
                 </div>
@@ -94,17 +107,21 @@ function Header() {
               </p>
               <div className="flex gap-5">
                 <div className="bg-[#03030E] mt-5 w-[183px] h-[151px] p-[20px] rounded-[24px] flex flex-col gap-[16px] items-center justify-center shadow-lg shadow-[#1A36A3CC]">
-                  <img
+                  <Image
                     src="/images/service3.png"
-                    className="h-[40px] w-[40px]"
+                    alt="logo"
+                    height={40}
+                    width={40}
                   />
                   <p className="text-[16px] font-[400] mt-2">Computer Vision</p>
                 </div>
 
                 <div className="bg-[#03030E] mt-5 w-[183px] h-[151px] p-[20px] rounded-[24px] flex flex-col gap-[16px] items-center justify-center shadow-lg shadow-[#1A36A3CC]">
-                  <img
+                  <Image
                     src="/images/service4.png"
-                    className="h-[40px] w-[40px]"
+                    alt="logo"
+                    height={40}
+                    width={40}
                   />
                   <p className="text-[16px] font-[400] mt-2">AI Automation</p>
                 </div>
@@ -123,17 +140,21 @@ function Header() {
               </p>
               <div className="flex gap-5">
                 <div className="bg-[#03030E] mt-5 w-[183px] h-[151px] p-[20px] rounded-[24px] flex flex-col gap-[16px] items-center justify-center shadow-lg shadow-[#1A36A3CC]">
-                  <img
+                  <Image
                     src="/images/service1.png"
-                    className="h-[40px] w-[40px]"
+                    alt="logo"
+                    height={40}
+                    width={40}
                   />
                   <p className="text-[16px] font-[400] mt-2">Web Development</p>
                 </div>
 
                 <div className="bg-[#03030E] mt-5 w-[183px] h-[151px] p-[20px] rounded-[24px] flex flex-col gap-[16px] items-center justify-center shadow-lg shadow-[#1A36A3CC]">
-                  <img
+                  <Image
                     src="/images/service2.png"
-                    className="h-[40px] w-[40px]"
+                    alt="logo"
+                    height={40}
+                    width={40}
                   />
                   <p className="text-[16px] font-[400] mt-2">Product Design</p>
                 </div>
@@ -144,17 +165,21 @@ function Header() {
               </p>
               <div className="flex gap-5">
                 <div className="bg-[#03030E] mt-5 w-[183px] h-[151px] p-[20px] rounded-[24px] flex flex-col gap-[16px] items-center justify-center shadow-lg shadow-[#1A36A3CC]">
-                  <img
+                  <Image
                     src="/images/service3.png"
-                    className="h-[40px] w-[40px]"
+                    alt="logo"
+                    height={40}
+                    width={40}
                   />
                   <p className="text-[16px] font-[400] mt-2">Computer Vision</p>
                 </div>
 
                 <div className="bg-[#03030E] mt-5 w-[183px] h-[151px] p-[20px] rounded-[24px] flex flex-col gap-[16px] items-center justify-center shadow-lg shadow-[#1A36A3CC]">
-                  <img
+                  <Image
                     src="/images/service4.png"
-                    className="h-[40px] w-[40px]"
+                    alt="logo"
+                    height={40}
+                    width={40}
                   />
                   <p className="text-[16px] font-[400] mt-2">AI Automation</p>
                 </div>

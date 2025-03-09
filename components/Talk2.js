@@ -1,12 +1,15 @@
+import Image from "next/image";
 import { GoArrowUpRight } from "react-icons/go";
 
 function Talk2() {
   return (
     <div className="p-[120px] relative flex items-center justify-center bg-[#03030E] font-manrope  text-white ">
-      <img
+      <Image
         src="/images/Calltoaction.png"
-        alt=""
+        alt="talk"
         className="h-[209px] w-[1200px] "
+        width={1200}
+        height={209}
       />
       <div className="absolute flex items-center justify-center flex-col">
         <p className="font-[700] text-[45px] ">

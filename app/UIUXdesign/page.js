@@ -1,4 +1,5 @@
 import Header from "@/components/Header";
+import Image from "next/image";
 
 function page() {
   return (
@@ -28,7 +29,12 @@ function page() {
             </p>
           </div>
           <div className="pt-20">
-            <img src="/images/uiux.png" alt="" className="" />
+            <Image
+              src="/images/uiux.png"
+              alt="design"
+              height={545}
+              width={741}
+            />
           </div>
         </div>
       </div>
@@ -46,7 +52,7 @@ function page() {
         <h1 className="font-[400] text-[44px]">
           Process that moves things forward
         </h1>
-        <img src="/images/uiux2.png" alt="" className="" />
+        <Image src="/images/uiux2.png" alt="design" height={202} width={1137} />
       </div>
     </div>
   );

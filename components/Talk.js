@@ -1,6 +1,7 @@
 import { FiFacebook, FiInstagram, FiLinkedin } from "react-icons/fi";
 import { CiLinkedin } from "react-icons/ci";
 import { GoArrowUpRight } from "react-icons/go";
+import Image from "next/image";
 
 function Talk() {
   return (
@@ -14,7 +15,7 @@ function Talk() {
         <div className="mt-[24px] bg-[#6b6a6a] h-[1px] w-[401px]"></div>
         <div className="py-[24px] flex items-center gap-[26px]">
           <span>
-            <img src="/images/email.png" className="w-[50px] h-[50px]" />
+            <Image src="/images/email.png" width={50} height={50} alt="phone" />
           </span>
           <div>
             <p className="font-[600] text-[20px]">Our email</p>
@@ -25,7 +26,7 @@ function Talk() {
         </div>
         <div className="py-[24px] flex items-center gap-[26px]">
           <span>
-            <img src="/images/call.png" className="w-[50px] h-[50px]" />
+            <Image src="/images/call.png" width={50} height={50} alt="phone" />
           </span>
           <div>
             <p className="font-[600] text-[20px]">Call us</p>
@@ -34,7 +35,12 @@ function Talk() {
         </div>
         <div className="py-[24px] flex items-center gap-[26px]">
           <span>
-            <img src="/images/location.png" className="w-[50px] h-[50px]" />
+            <Image
+              src="/images/location.png"
+              width={50}
+              height={50}
+              alt="phone"
+            />
           </span>
           <div>
             <p className="font-[600] text-[20px]">Find us</p>

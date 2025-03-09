@@ -1,4 +1,5 @@
 import Header from "@/components/Header";
+import Image from "next/image";
 import { GoArrowUpRight } from "react-icons/go";
 
 function page() {
@@ -37,9 +38,19 @@ function page() {
             </button>
           </div>
           <div className="pt-10 px-12 relative">
-            <img src="/images/geohealth1.png" alt="" />
+            <Image
+              src="/images/geohealth1.png"
+              alt="geohealth"
+              height={349}
+              width={511}
+            />
             <div className="absolute top-0 left-8">
-              <img src="/images/geohealth2.png" alt="" />
+              <Image
+                src="/images/geohealth2.png"
+                alt="geohealth"
+                width={165}
+                height={90}
+              />
             </div>
           </div>
         </div>
@@ -65,7 +76,12 @@ function page() {
           </div>
         </div>
         <div>
-          <img src="/images/geoupdate.png" alt="" />
+          <Image
+            src="/images/geoupdate.png"
+            alt="geohealth"
+            height={489}
+            width={655}
+          />
         </div>
       </div>
 
@@ -75,49 +91,57 @@ function page() {
         <div className="flex items-center justify-center gap-32">
           <div className="flex flex-col gap-3 items-center justify-center">
             <p className="font-[600] text-[20px] mb-6">Frontend Architecture</p>
-            <img
+            <Image
               src="/images/html.png"
-              alt=""
-              className="w-[112px] h-[112px]"
+              alt="geohealth"
+              height={112}
+              width={112}
             />
-            <img
+            <Image
               src="/images/nextjs.png"
-              alt=""
-              className="w-[112px] h-[112px]"
+              alt="geohealth"
+              height={112}
+              width={112}
             />
-            <img
+            <Image
               src="/images/html.png"
-              alt=""
-              className="w-[112px] h-[112px]"
+              alt="geohealth"
+              height={112}
+              width={112}
             />
-            <img
+            <Image
               src="/images/nextjs.png"
-              alt=""
-              className="w-[112px] h-[112px]"
+              alt="geohealth"
+              height={112}
+              width={112}
             />
           </div>
           <div className="bg-white opacity-50 h-[544px] w-[1px]"></div>
           <div className="flex flex-col gap-3 items-center justify-center">
             <p className="font-[600] text-[20px] mb-6">Frontend Architecture</p>
-            <img
+            <Image
               src="/images/html.png"
-              alt=""
-              className="w-[112px] h-[112px]"
+              alt="geohealth"
+              height={112}
+              width={112}
             />
-            <img
+            <Image
               src="/images/nextjs.png"
-              alt=""
-              className="w-[112px] h-[112px]"
+              alt="geohealth"
+              height={112}
+              width={112}
             />
-            <img
+            <Image
               src="/images/html.png"
-              alt=""
-              className="w-[112px] h-[112px]"
+              alt="geohealth"
+              height={112}
+              width={112}
             />
-            <img
+            <Image
               src="/images/nextjs.png"
-              alt=""
-              className="w-[112px] h-[112px]"
+              alt="geohealth"
+              height={112}
+              width={112}
             />
           </div>
         </div>

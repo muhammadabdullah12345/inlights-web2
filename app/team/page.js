@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { CiFacebook, CiLinkedin } from "react-icons/ci";
 import { FaInstagram } from "react-icons/fa6";
 
@@ -8,7 +9,12 @@ function page() {
       <div className="grid grid-cols-3 pt-14 gap-[70px]">
         <div>
           <div className="relative flex">
-            <img src="/images/team1.png" alt="" />
+            <Image
+              src="/images/team1.png"
+              alt="team"
+              width={350}
+              height={417}
+            />
             <div className="absolute flex gap-2 right-4 top-3">
               <CiFacebook className="bg-[#FBFBFB] text-black w-[30px] h-[30px] rounded-xl" />
               <FaInstagram className="bg-[#FBFBFB] text-black w-[30px] h-[30px] rounded-xl" />
@@ -22,7 +28,12 @@ function page() {
         </div>
         <div>
           <div className="relative flex">
-            <img src="/images/team2.png" alt="" />
+            <Image
+              src="/images/team2.png"
+              alt="team"
+              width={350}
+              height={417}
+            />
             <div className="absolute flex gap-2 right-4 top-3">
               <CiFacebook className="bg-[#FBFBFB] text-black w-[30px] h-[30px] rounded-xl" />
               <FaInstagram className="bg-[#FBFBFB] text-black w-[30px] h-[30px] rounded-xl" />
@@ -38,7 +49,12 @@ function page() {
         </div>
         <div>
           <div className="relative flex">
-            <img src="/images/team3.png" alt="" />
+            <Image
+              src="/images/team3.png"
+              alt="team"
+              width={350}
+              height={417}
+            />
             <div className="absolute flex gap-2 right-4 top-3">
               <CiFacebook className="bg-[#FBFBFB] text-black w-[30px] h-[30px] rounded-xl" />
               <FaInstagram className="bg-[#FBFBFB] text-black w-[30px] h-[30px] rounded-xl" />
@@ -52,7 +68,12 @@ function page() {
         </div>
         <div>
           <div className="relative flex">
-            <img src="/images/team1.png" alt="" />
+            <Image
+              src="/images/team1.png"
+              alt="team"
+              width={350}
+              height={417}
+            />
             <div className="absolute flex gap-2 right-4 top-3">
               <CiFacebook className="bg-[#FBFBFB] text-black w-[30px] h-[30px] rounded-xl" />
               <FaInstagram className="bg-[#FBFBFB] text-black w-[30px] h-[30px] rounded-xl" />
@@ -66,7 +87,12 @@ function page() {
         </div>
         <div>
           <div className="relative flex">
-            <img src="/images/team2.png" alt="" />
+            <Image
+              src="/images/team2.png"
+              alt="team"
+              width={350}
+              height={417}
+            />
             <div className="absolute flex gap-2 right-4 top-3">
               <CiFacebook className="bg-[#FBFBFB] text-black w-[30px] h-[30px] rounded-xl" />
               <FaInstagram className="bg-[#FBFBFB] text-black w-[30px] h-[30px] rounded-xl" />
@@ -82,7 +108,12 @@ function page() {
         </div>
         <div>
           <div className="relative flex">
-            <img src="/images/team3.png" alt="" />
+            <Image
+              src="/images/team3.png"
+              alt="team"
+              width={350}
+              height={417}
+            />
             <div className="absolute flex gap-2 right-4 top-3">
               <CiFacebook className="bg-[#FBFBFB] text-black w-[30px] h-[30px] rounded-xl" />
               <FaInstagram className="bg-[#FBFBFB] text-black w-[30px] h-[30px] rounded-xl" />
@@ -96,7 +127,12 @@ function page() {
         </div>
         <div>
           <div className="relative flex">
-            <img src="/images/team1.png" alt="" />
+            <Image
+              src="/images/team1.png"
+              alt="team"
+              width={350}
+              height={417}
+            />
             <div className="absolute flex gap-2 right-4 top-3">
               <CiFacebook className="bg-[#FBFBFB] text-black w-[30px] h-[30px] rounded-xl" />
               <FaInstagram className="bg-[#FBFBFB] text-black w-[30px] h-[30px] rounded-xl" />
@@ -110,7 +146,12 @@ function page() {
         </div>
         <div>
           <div className="relative flex">
-            <img src="/images/team2.png" alt="" />
+            <Image
+              src="/images/team2.png"
+              alt="team"
+              width={350}
+              height={417}
+            />
             <div className="absolute flex gap-2 right-4 top-3">
               <CiFacebook className="bg-[#FBFBFB] text-black w-[30px] h-[30px] rounded-xl" />
               <FaInstagram className="bg-[#FBFBFB] text-black w-[30px] h-[30px] rounded-xl" />
@@ -126,7 +167,12 @@ function page() {
         </div>
         <div>
           <div className="relative flex">
-            <img src="/images/team3.png" alt="" />
+            <Image
+              src="/images/team3.png"
+              alt="team"
+              width={350}
+              height={417}
+            />
             <div className="absolute flex gap-2 right-4 top-3">
               <CiFacebook className="bg-[#FBFBFB] text-black w-[30px] h-[30px] rounded-xl" />
               <FaInstagram className="bg-[#FBFBFB] text-black w-[30px] h-[30px] rounded-xl" />

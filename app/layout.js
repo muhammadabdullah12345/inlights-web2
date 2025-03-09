@@ -16,10 +16,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${manrope.variable}`}>
-        {/* <Header /> */}
-        {children}
-      </body>
+      <body className={`${manrope.variable}`}>{children}</body>
     </html>
   );
 }

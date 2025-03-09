@@ -1,4 +1,5 @@
 import Header from "@/components/Header";
+import Image from "next/image";
 
 function page() {
   return (
@@ -31,7 +32,12 @@ function page() {
             </p>
           </div>
           <div>
-            <img src="/images/webdev.png" alt="" className="" />
+            <Image
+              src="/images/webdev.png"
+              alt="web"
+              height={395}
+              width={497}
+            />
           </div>
         </div>
       </div>
@@ -47,16 +53,16 @@ function page() {
       >
         <h1 className="font-[400] text-[44px]">Our Tech Stack</h1>
         <div className="flex items-center justify-between gap-16">
-          <img src="/images/nodejs1.png" alt="" className="" />
-          <img src="/images/express.png" alt="" className="" />
-          <img src="/images/react.png" alt="" className="" />
-          <img src="/images/mongodb.png" alt="" className="" />
+          <Image src="/images/nodejs1.png" alt="web" height={156} width={255} />
+          <Image src="/images/express.png" alt="web" height={156} width={255} />
+          <Image src="/images/react.png" alt="web" height={156} width={255} />
+          <Image src="/images/mongodb.png" alt="web" height={156} width={255} />
         </div>
         <div className="flex items-center justify-between gap-16">
-          <img src="/images/nodejs1.png" alt="" className="" />
-          <img src="/images/express.png" alt="" className="" />
-          <img src="/images/react.png" alt="" className="" />
-          <img src="/images/mongodb.png" alt="" className="" />
+          <Image src="/images/nodejs1.png" alt="web" height={156} width={255} />
+          <Image src="/images/express.png" alt="web" height={156} width={255} />
+          <Image src="/images/react.png" alt="web" height={156} width={255} />
+          <Image src="/images/mongodb.png" alt="web" height={156} width={255} />
         </div>
       </div>
     </div>
