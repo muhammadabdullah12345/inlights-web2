@@ -18,7 +18,7 @@ function page() {
           <div className="w-1/2">
             <h1 className="font-[500] text-[50px]">Web Development</h1>
             <p className="font-[400] text-[18px] pt-5 opacity-70">
-              Attracting and retaining customers in today's digital age requires
+              Attracting and retaining customers in todays digital age requires
               a strong online presence. A website that is visually appealing,
               easy to navigate, and optimized for search engines is essential to
               building your brand and reaching your target audience. Our web

@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import { useState } from "react";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa6";
 const testimonials = [
@@ -60,10 +61,12 @@ function GeoFeedback() {
         </div>
 
         <div className="flex flex-col gap-2 items-center justify-center mt-6">
-          <img
+          <Image
             src={testimonials[currentIndex].image}
             alt={testimonials[currentIndex].name}
-            className="w-[32px] md:w-[42px] h-[32px] md:h-[42px] rounded-full"
+            className=" rounded-full"
+            height={42}
+            width={42}
           />
           <p className="text-[14px] lg:text-[16px] text-white pt-[4px]">
             {testimonials[currentIndex].name}
