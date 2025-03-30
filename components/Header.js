@@ -6,17 +6,17 @@ import Image from "next/image";
 function Header() {
   return (
     <div className="relative z-50 font-manrope">
-      <div className="hidden lg:flex items-center justify-between px-10 py-3 text-white cursor-pointer bg-transparent">
+      <div className=" flex items-center justify-between px-28 py-5 text-white cursor-pointer bg-transparent">
         <div>
           <Image src="/images/logo.png" width={155} height={18} alt="logo" />
         </div>
         <nav className="flex items-center gap-6">
-          <div className="font-[600]">Home</div>
+          <div className="font-[600] text-[18px]">Home</div>
 
           <div className="relative group ">
-            <div className="flex items-center gap-2 ">
-              <span className="font-[600]">Services</span>
-              <IoIosArrowDown />
+            <div className="flex items-center gap-1">
+              <span className="font-[600] text-[18px]">Services</span>
+              <IoIosArrowDown className="h-[10px] w-[10px]" />
             </div>
             <div className="absolute hidden group-hover:block bg-[#050919] text-white rounded-[16px]   mt-2 shadow-lg p-[24px] h-auto w-auto z-10">
               <p className="text-[18px] font-[600] ">
@@ -72,9 +72,9 @@ function Header() {
           </div>
 
           <div className="relative group">
-            <div className="flex items-center gap-2">
-              <span className="font-[600]">Our Products</span>
-              <IoIosArrowDown />
+            <div className="flex items-center gap-1">
+              <span className="font-[600] text-[18px]">Products</span>
+              <IoIosArrowDown className="h-[10px] w-[10px]" />
             </div>
             <div className="absolute hidden group-hover:block bg-[#050919] text-white rounded-[16px]   mt-2 shadow-lg p-[24px] h-auto w-auto z-10">
               <p className="text-[18px] font-[600] ">
@@ -130,9 +130,9 @@ function Header() {
           </div>
 
           <div className="relative group">
-            <div className="flex items-center gap-2">
-              <span className="font-[600]">Company</span>
-              <IoIosArrowDown />
+            <div className="flex items-center gap-1">
+              <span className="font-[600] text-[18px]">Company</span>
+              <IoIosArrowDown className="h-[10px] w-[10px]" />
             </div>
             <div className="absolute hidden group-hover:block bg-[#050919] text-white rounded-[16px]   mt-2 shadow-lg p-[24px] h-auto w-auto z-10">
               <p className="text-[18px] font-[600] ">

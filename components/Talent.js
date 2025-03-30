@@ -2,7 +2,7 @@ import { GoArrowUpRight } from "react-icons/go";
 
 function Talent() {
   return (
-    <div className="py-10 px-10 bg-[#050919]">
+    <div className="py-0 px-10 bg-[#050919]">
       <div
         className="rounded-[32px] font-manrope flex items-center justify-between px-[60px]"
         style={{

@@ -6,7 +6,7 @@ import { MdOutlineAddReaction } from "react-icons/md";
 function Stats() {
   return (
     <div
-      className="bg-black text-white md:py-[81px] relative py-[51px] flex  items-center font-manrope justify-between pr-28"
+      className="bg-black text-white py-[81px] relative  flex items-center font-manrope justify-between pr-28"
       style={{
         backgroundImage: "url('/images/statsback.png')", // Path to your image
         backgroundSize: "cover", // Ensures the image covers the entire container
@@ -31,52 +31,52 @@ function Stats() {
           </div>
         </div>
       </div>
-      <div className="grid grid-cols-2 gap-[85px]     items-center justify-center ">
+      <div className="grid grid-cols-2 gap-[100px] items-center justify-center ">
         <div
-          className="flex flex-col gap-[10px] items-center justify-center bg-[#050919] w-[240px] h-[240px]  rounded-[200px] shadow-lg shadow-[#1A36A3E5]"
+          className="flex flex-col gap-[10px] items-center justify-center bg-[#050919] w-[200px] h-[200px]  rounded-[200px] shadow-lg shadow-[#1A36A3E5]"
           style={{
             boxShadow: " 0px 0px 30px 0px #1A36A3CC",
           }}
         >
-          <MdOutlineQueryStats className="opacity-70 h-[20px] w-[20px] lg:text-[46px] sm:h-[40px] sm:w-[40px]" />
-          <span className="text-[20px] lg:text-[46px] font-semibold">03+</span>
-          <span className="opacity-70 text-[12px] lg:text-[14px] text-center">
+          <MdOutlineQueryStats className="opacity-70 h-[35px] w-[35px]" />
+          <span className="text-[30px] font-semibold">03+</span>
+          <span className="opacity-70 text-[14px] text-center">
             Years of Growth
           </span>
         </div>
         <div
-          className="flex flex-col gap-[10px] items-center  justify-center bg-[#050919] w-[240px] h-[240px]  rounded-[200px] shadow-lg shadow-[#1A36A3E5]"
+          className="flex flex-col gap-[10px] items-center justify-center bg-[#050919] w-[200px] h-[200px]  rounded-[200px] shadow-lg shadow-[#1A36A3E5]"
           style={{
             boxShadow: " 0px 0px 30px 0px #1A36A3CC",
           }}
         >
-          <MdOutlineHomeWork className="opacity-70 h-[20px] w-[20px] lg:text-[46px] sm:h-[40px] sm:w-[40px]" />
-          <span className="text-[20px] lg:text-[46px] font-semibold">03</span>
-          <span className="opacity-70 text-[12px] lg:text-[14px] text-center">
+          <MdOutlineHomeWork className="opacity-70 h-[35px] w-[35px]" />
+          <span className="text-[30px] font-semibold">03</span>
+          <span className="opacity-70 text-[14px] text-center">
             Global Offices
           </span>
         </div>
         <div
-          className="flex flex-col gap-[10px] items-center  justify-center bg-[#050919] w-[240px] h-[240px]  rounded-[200px] shadow-lg shadow-[#1A36A3E5]"
+          className="flex flex-col gap-[10px] items-center justify-center bg-[#050919] w-[200px] h-[200px]  rounded-[200px] shadow-lg shadow-[#1A36A3E5]"
           style={{
             boxShadow: " 0px 0px 30px 0px #1A36A3CC",
           }}
         >
-          <MdOutlineEmojiObjects className="opacity-70 h-[20px] w-[20px] lg:text-[46px] sm:h-[40px] sm:w-[40px]" />
-          <span className="text-[20px] lg:text-[46px] font-semibold">06</span>
-          <span className="opacity-70 text-[12px] lg:text-[14px] text-center">
+          <MdOutlineEmojiObjects className="opacity-70 h-[35px] w-[35px]" />
+          <span className="text-[30px] font-semibold">06</span>
+          <span className="opacity-70 text-[14px] text-center">
             Products Cultivated
           </span>
         </div>
         <div
-          className="flex flex-col gap-[10px] items-center  justify-center bg-[#050919] w-[240px] h-[240px]  rounded-[200px] shadow-lg shadow-[#1A36A3E5]"
+          className="flex flex-col gap-[10px] items-center justify-center bg-[#050919] w-[200px] h-[200px]  rounded-[200px] shadow-lg shadow-[#1A36A3E5]"
           style={{
             boxShadow: " 0px 0px 30px 0px #1A36A3CC",
           }}
         >
-          <MdOutlineAddReaction className="opacity-70 h-[20px] w-[20px] lg:text-[46px] sm:h-[40px] sm:w-[40px]" />
-          <p className="text-[20px] lg:text-[46px] font-semibold">92%</p>
-          <p className="opacity-70 text-[12px] lg:text-[14px] text-center">
+          <MdOutlineAddReaction className="opacity-70 h-[35px] w-[35px]" />
+          <p className="text-[30px] font-semibold">92%</p>
+          <p className="opacity-70 text-[14px] text-center">
             Customer Satisfaction
           </p>
         </div>

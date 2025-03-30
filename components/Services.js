@@ -3,7 +3,7 @@ import { GoArrowUpRight } from "react-icons/go";
 
 function Services() {
   return (
-    <div className="bg-[#050919]  md:py-[140px] py-[30px] px-[16px] min-h-[713px] w-full  lg:px-[70px] font-manrope">
+    <div className="bg-[#050919] pt-[60px]  px-[16px] min-h-[713px] w-full  lg:px-[70px] font-manrope">
       <div className="text-white">
         <p className="text-[50px] lg:text-[40px] font-[500] text-center">
           Our Services

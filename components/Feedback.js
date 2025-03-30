@@ -49,7 +49,7 @@ function GeoFeedback() {
   };
 
   return (
-    <div className="py-[160px] px-[70px] bg-[#050919] font-manrope">
+    <div className="py-[40px] px-[70px] bg-[#050919] font-manrope">
       <div
         className="py-[80px] px-5 lg:px-[70px] rounded-[32px] mt-16"
         style={{

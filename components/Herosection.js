@@ -4,12 +4,12 @@ import { FaLocationArrow } from "react-icons/fa6";
 import { GoArrowUpRight } from "react-icons/go";
 function Herosection() {
   return (
-    <div className="flex items-center justify-center mt-[120px] sm:mt-[160px] flex-col text-center px-[16px] z-10 relative font-manrope">
-      <p className="text-[24px] font-[500] text-white sm:text-[50px]">
+    <div className="flex items-center justify-center mt-[50px] flex-col text-center px-[16px] z-10 relative font-manrope max-h-screen">
+      <p className="text-[45px] font-[500] text-white ">
         Redefining Smart Cities using
       </p>
       <p
-        className="text-[24px] font-[500] sm:text-[50px] bg-clip-text text-transparent"
+        className=" font-[500] text-[45px] bg-clip-text text-transparent"
         style={{
           backgroundImage:
             "linear-gradient(to bottom, #552DDA 0%, #507BD0 100%,white 31%)",
@@ -28,14 +28,10 @@ function Herosection() {
         <GoArrowUpRight />
       </button>
 
-      <div className="flex items-center justify-center sm:mt-[35px] mt-[60px] opacity-90 text-white text-[12px] sm:text-[16px]">
-        {/* TRUSTED BY */}
-      </div>
-      <div className="flex items-center justify-center gap-10 mt-2"></div>
-      <div className="flex items-center justify-center mt-[35px] opacity-90 text-white sm:text-[16px] text-[12px] h-[94px]">
+      <div className="mt-28 opacity-90 text-white text-[16px]">
         IN PARTNERSHIP WITH
       </div>
-      <div className="flex items-center justify-center gap-10  mb-[60px] sm:mb-[35px] pb-[20px]">
+      <div className="flex items-center justify-center gap-10 mb-20 mt-5">
         <Image src="/images/hero-2.png" width={53} height={54} alt="ntdp" />
         <Image src="/images/hero-4.png" height={24} width={107} alt="sdaia" />
         <Image src="/images/hero-3.png" width={54} height={54} alt="nstp" />

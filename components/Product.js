@@ -4,8 +4,8 @@ import { GoArrowUpRight } from "react-icons/go";
 function Product() {
   return (
     <div className="bg-[#050919]">
-      <div className="px-5 lg:px-[70px]  py-[130px] font-manrope">
-        <div className=" lg:text-left">
+      <div className="px-[70px] py-[100px] font-manrope">
+        <div className="text-left">
           <p className="text-[40px]  font-[500] text-center text-white">
             Our Products
           </p>
