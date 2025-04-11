@@ -74,7 +74,7 @@ function GeoFeedback() {
     <div className="pb-10 px-5 lg:px-16 bg-[#050919] font-manrope pt-0">
       <div className="flex justify-center items-center">
         <div className="font-[400] text-5xl text-white text-center max-w-4xl">
-          Don't take our word, see what customers say about us
+          Don&apos;t take our word, see what customers say about us
         </div>
       </div>
       <div
