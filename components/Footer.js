@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { FaLinkedin, FaYoutube } from "react-icons/fa6";
 import { GoArrowUpRight } from "react-icons/go";
 
@@ -15,20 +16,116 @@ function Footer() {
             <p>NASTP, Nur Khan Airbase, Rawalpindi, Pakistan</p>
           </div>
         </div>
-        <div className="flex  gap-16 mt-10 lg:mt-0">
+        <div className="flex gap-16 mt-10 lg:mt-0">
           <div className="flex flex-col gap-4 text-[#B5B5B5] text-[14px]">
             <span className="text-[16px] text-white">Quick Links</span>
-            <span>About Us</span>
-            <span>Inlights Security</span>
-            <span>Inlights Traffic</span>
-            <span>Careers</span>
+            <Link
+              href="/about"
+              className="relative transition duration-300 group inline-block"
+            >
+              <span>About Us</span>
+              <span
+                className="absolute left-0 bottom-0 w-0 h-[2px] transition-all duration-300 group-hover:w-[58%]"
+                style={{
+                  backgroundImage:
+                    "linear-gradient(to bottom, #552DDA 0%, #507BD0 100%,white 31%)",
+                }}
+              ></span>
+            </Link>
+            <Link
+              href="/premisesecurity"
+              className="relative transition duration-300 group inline-block"
+            >
+              <span>Inlights Security</span>
+              <span
+                className="absolute left-0 bottom-0 w-0 h-[2px] transition-all duration-300 group-hover:w-full"
+                style={{
+                  backgroundImage:
+                    "linear-gradient(to bottom, #552DDA 0%, #507BD0 100%,white 31%)",
+                }}
+              ></span>
+            </Link>
+            <Link
+              href="/trafficmanagement"
+              className="relative transition duration-300 group inline-block"
+            >
+              <span>Inlights Traffic</span>
+              <span
+                className="absolute left-0 bottom-0 w-0 h-[2px] transition-all duration-300 group-hover:w-[88%]"
+                style={{
+                  backgroundImage:
+                    "linear-gradient(to bottom, #552DDA 0%, #507BD0 100%,white 31%)",
+                }}
+              ></span>
+            </Link>
+            <Link
+              href="/mission"
+              className="relative transition duration-300 group inline-block"
+            >
+              <span>careers</span>
+              <span
+                className="absolute left-0 bottom-0 w-0 h-[2px] transition-all duration-300 group-hover:w-[50%]"
+                style={{
+                  backgroundImage:
+                    "linear-gradient(to bottom, #552DDA 0%, #507BD0 100%,white 31%)",
+                }}
+              ></span>
+            </Link>
           </div>
           <div className="flex flex-col gap-4 text-[#B5B5B5] text-[14px]">
             <span className="text-[16px] text-white">Solutions</span>
-            <span>Web Development</span>
-            <span>Product Design</span>
-            <span>AI Automation</span>
-            <span>Computer Vision</span>
+            <Link
+              href="/webdevelopment"
+              className="relative transition duration-300 group inline-block"
+            >
+              <span>Web Development</span>
+              <span
+                className="absolute left-0 bottom-0 w-0 h-[2px] transition-all duration-300 group-hover:w-full"
+                style={{
+                  backgroundImage:
+                    "linear-gradient(to bottom, #552DDA 0%, #507BD0 100%,white 31%)",
+                }}
+              ></span>
+            </Link>
+            <Link
+              href="/UIUXdesign"
+              className="relative transition duration-300 group inline-block"
+            >
+              <span>Product Design</span>
+              <span
+                className="absolute left-0 bottom-0 w-0 h-[2px] transition-all duration-300 group-hover:w-[88%]"
+                style={{
+                  backgroundImage:
+                    "linear-gradient(to bottom, #552DDA 0%, #507BD0 100%,white 31%)",
+                }}
+              ></span>
+            </Link>
+            <Link
+              href="/"
+              className="relative transition duration-300 group inline-block"
+            >
+              <span>AI Automation</span>
+              <span
+                className="absolute left-0 bottom-0 w-0 h-[2px] transition-all duration-300 group-hover:w-[80%]"
+                style={{
+                  backgroundImage:
+                    "linear-gradient(to bottom, #552DDA 0%, #507BD0 100%,white 31%)",
+                }}
+              ></span>
+            </Link>
+            <Link
+              href="/"
+              className="relative transition duration-300 group inline-block"
+            >
+              <span>Computer Vision</span>
+              <span
+                className="absolute left-0 bottom-0 w-0 h-[2px] transition-all duration-300 group-hover:w-[92%]"
+                style={{
+                  backgroundImage:
+                    "linear-gradient(to bottom, #552DDA 0%, #507BD0 100%,white 31%)",
+                }}
+              ></span>
+            </Link>
           </div>
         </div>
       </div>

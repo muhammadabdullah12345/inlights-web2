@@ -13,15 +13,6 @@ function Page() {
     <div className="bg-[#03030E] text-white font-manrope py-[80px] px-[70px]">
       <div className=" flex justify-between items-center">
         <h1 className="font-[500] text-[50px]">AI Engineer</h1>
-        <button
-          className="flex items-center justify-center py-2 px-3 sm:rounded-xl gap-1 sm:gap-2 text-white mt-[35px] bg-[#552DDA] rounded-[7px] text-[14px] sm:text-[16px] sm:px-4 sm:py-2 hover:bg-transparent border-[#552DDA] shadow-xl shadow-[#5144DCF7]  border-[3px] hover:!shadow-none"
-          style={{
-            boxShadow: "0px 0px 35.7px 0px #5144DCF7",
-          }}
-        >
-          <span>Apply</span>
-          {/* <GoArrowUpRight /> */}
-        </button>
       </div>
       <div className="flex items-start justify-between my-10">
         <div className="w-[770px] ">
@@ -106,7 +97,7 @@ function Page() {
           </div>
         </div>
       </div>
-      <div
+      <form
         className="p-[40px] rounded-[20px] "
         style={{
           boxShadow: "0px 0px 35.7px 0px #5144DCF7",
@@ -119,6 +110,7 @@ function Page() {
               Firstname
             </label>
             <input
+              required
               type="text"
               className="w-[520px] bg-transparent border-b border-[#DFDFDF] outline-none text-white"
             />
@@ -128,17 +120,19 @@ function Page() {
               Lastname
             </label>
             <input
+              required
               type="text"
               className="w-[520px] bg-transparent border-b border-[#DFDFDF] outline-none text-white"
             />
           </div>
         </div>
-        <div className="flex justify-between mt-14">
+        <div className="flex justify-between mt-14 gap-10">
           <div className="flex flex-col gap-[30px]">
             <label htmlFor="firstname" className="font-[400] text-[14px]">
               Email
             </label>
             <input
+              required
               type="text"
               className="w-[520px] bg-transparent border-b border-[#DFDFDF] outline-none text-white"
             />
@@ -148,6 +142,7 @@ function Page() {
               Phone
             </label>
             <input
+              required
               type="text"
               className="w-[520px] bg-transparent border-b border-[#DFDFDF] outline-none text-white"
             />
@@ -158,6 +153,7 @@ function Page() {
             Address
           </label>
           <input
+            required
             type="text"
             className=" w-full bg-transparent border-b border-[#DFDFDF] outline-none text-white"
           />
@@ -167,6 +163,7 @@ function Page() {
             LinkedIn Profile
           </label>
           <input
+            required
             type="text"
             className=" w-full bg-transparent border-b border-[#DFDFDF] outline-none text-white"
           />
@@ -197,6 +194,7 @@ function Page() {
           />
         </div>
         <button
+          type="submit"
           className="flex items-center justify-center py-2 px-3 sm:rounded-xl gap-1 sm:gap-2 text-white mt-[41px] bg-[#552DDA] rounded-[7px] text-[14px] sm:text-[16px] sm:px-4 sm:py-2 hover:bg-transparent border-[#552DDA] shadow-xl shadow-[#5144DCF7]  border-[3px] hover:!shadow-none"
           style={{
             boxShadow: "0px 0px 35.7px 0px #5144DCF7",
@@ -205,7 +203,7 @@ function Page() {
           <span>Apply</span>
           <GoArrowUpRight />
         </button>
-      </div>
+      </form>
     </div>
   );
 }

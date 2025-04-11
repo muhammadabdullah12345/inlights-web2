@@ -9,7 +9,7 @@ function page() {
           backgroundImage: "url('/images/about.png')", // Path to your image
           backgroundSize: "cover", // Ensures the image covers the entire container
           backgroundPosition: "center", // Centers the image
-          height: "100vh", // Full height of the viewport
+          height: "100%", // Full height of the viewport
           width: "100%", // Full width
         }}
       >
@@ -52,7 +52,13 @@ function page() {
         <h1 className="font-[400] text-[44px]">
           Process that moves things forward
         </h1>
-        <Image src="/images/uiux2.png" alt="design" height={202} width={1137} />
+        <div className="flex items-center justify-between gap-5">
+          <Image src="/images/grp1.png" alt="design" height={201} width={271} />
+          <Image src="/images/grp2.png" alt="design" height={201} width={271} />
+          <Image src="/images/grp3.png" alt="design" height={201} width={271} />
+          <Image src="/images/grp3.png" alt="design" height={201} width={271} />
+        </div>
+        {/* <Image src="/images/uiux2.png" alt="design" height={202} width={1137} /> */}
       </div>
     </div>
   );

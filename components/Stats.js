@@ -33,7 +33,7 @@ function Stats() {
       </div>
       <div className="grid grid-cols-2 gap-[100px] items-center justify-center ">
         <div
-          className="flex flex-col gap-[10px] items-center justify-center bg-[#050919] w-[200px] h-[200px]  rounded-[200px] shadow-lg shadow-[#1A36A3E5]"
+          className="flex flex-col gap-[10px] items-center justify-center bg-[#050919] w-[200px] h-[200px]  rounded-[200px] shadow-lg shadow-[#1A36A3E5] hover:scale-110 transition-all"
           style={{
             boxShadow: " 0px 0px 30px 0px #1A36A3CC",
           }}
@@ -45,7 +45,7 @@ function Stats() {
           </span>
         </div>
         <div
-          className="flex flex-col gap-[10px] items-center justify-center bg-[#050919] w-[200px] h-[200px]  rounded-[200px] shadow-lg shadow-[#1A36A3E5]"
+          className="flex flex-col gap-[10px] items-center justify-center bg-[#050919] w-[200px] h-[200px]  rounded-[200px] shadow-lg shadow-[#1A36A3E5] hover:scale-110 transition-all"
           style={{
             boxShadow: " 0px 0px 30px 0px #1A36A3CC",
           }}
@@ -57,7 +57,7 @@ function Stats() {
           </span>
         </div>
         <div
-          className="flex flex-col gap-[10px] items-center justify-center bg-[#050919] w-[200px] h-[200px]  rounded-[200px] shadow-lg shadow-[#1A36A3E5]"
+          className="flex flex-col gap-[10px] items-center justify-center bg-[#050919] w-[200px] h-[200px]  rounded-[200px] shadow-lg shadow-[#1A36A3E5] hover:scale-110 transition-all"
           style={{
             boxShadow: " 0px 0px 30px 0px #1A36A3CC",
           }}
@@ -69,7 +69,7 @@ function Stats() {
           </span>
         </div>
         <div
-          className="flex flex-col gap-[10px] items-center justify-center bg-[#050919] w-[200px] h-[200px]  rounded-[200px] shadow-lg shadow-[#1A36A3E5]"
+          className="flex flex-col gap-[10px] items-center justify-center bg-[#050919] w-[200px] h-[200px]  rounded-[200px] shadow-lg shadow-[#1A36A3E5] hover:scale-110 transition-all"
           style={{
             boxShadow: " 0px 0px 30px 0px #1A36A3CC",
           }}

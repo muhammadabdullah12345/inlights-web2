@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { GoArrowUpRight } from "react-icons/go";
 
 function Product() {
@@ -13,7 +14,7 @@ function Product() {
 
         <div className="flex flex-col lg:flex-row items-center justify-center sm:gap-[24px] sm:mt-10 mt-5 gap-[5px]">
           <div
-            className="px-5 lg:px-[34px] pt-5 lg:pt-[34px] pb-0 bg-[#050919] my-5 rounded-[20px] lg:rounded-[34px] relative w-full  lg:w-[50%] h-[591px] shadow-xl "
+            className="px-5 lg:px-[34px] pt-5 lg:pt-[34px] pb-0 bg-[#050919] my-5 rounded-[20px] lg:rounded-[34px] relative w-full  lg:w-[50%] h-[591px] shadow-xl overflow-hidden"
             style={{
               boxShadow: " 0px 0px 30px 0px #1A36A3CC",
             }}
@@ -29,21 +30,35 @@ function Product() {
               tools. Anticipate needs, schedule proactively, and optimize
               resources to keep operations running smoothly.
             </p>
-            <p className="text-white text-[12px] lg:text-[12px] mt-5 lg:mt-7 flex items-center gap-[6px] opacity-70">
-              <span>Discover Insights</span>
+            <Link
+              className="text-white text-[12px] lg:text-[12px] mt-5 lg:mt-7 flex items-center gap-[6px] group"
+              href="/trafficmanagement"
+            >
+              <span className="relative transition duration-300">
+                Discover Insights
+                <span
+                  className="absolute left-1/2 -bottom-[4px] w-0 h-[2px] transition-all duration-300 group-hover:w-full group-hover:left-0"
+                  style={{
+                    backgroundImage:
+                      "linear-gradient(to bottom, #552DDA 0%, #507BD0 100%,white 31%)",
+                  }}
+                ></span>
+              </span>
               <GoArrowUpRight />
-            </p>
-            <Image
-              src="/images/product1.png"
-              alt="product1"
-              height={307}
-              width={566}
-              className=" mt-[98px] absolute bottom-0 mx-[-25px]"
-            />
+            </Link>
+            <div className="absolute bottom-0 left-0 right-0 flex justify-center">
+              <Image
+                src="/images/product1.png"
+                alt="product1"
+                height={307}
+                width={566}
+                className="object-contain"
+              />
+            </div>
           </div>
 
           <div
-            className="px-5 lg:px-[34px] pt-5 lg:pt-[34px] pb-0 bg-[#050919] my-5 rounded-[20px] lg:rounded-[34px] relative w-full  lg:w-[50%] h-[591px] shadow-xl shadow-[#1A36A3CC]"
+            className="px-5 lg:px-[34px] pt-5 lg:pt-[34px] pb-0 bg-[#050919] my-5 rounded-[20px] lg:rounded-[34px] relative w-full  lg:w-[50%] h-[591px] shadow-xl shadow-[#1A36A3CC] overflow-hidden"
             style={{
               boxShadow: " 0px 0px 30px 0px #1A36A3CC",
             }}
@@ -59,17 +74,32 @@ function Product() {
               tools. Anticipate needs, schedule proactively, and optimize
               resources to keep operations running smoothly.
             </p>
-            <p className="text-white text-[12px] lg:text-[12px] mt-5 lg:mt-7 flex items-center gap-[6px] opacity-70">
-              <span>Discover Insights</span>
+            <Link
+              className="text-white text-[12px] lg:text-[12px] mt-5 lg:mt-7 flex items-center gap-[6px] group"
+              href="/premisesecurity"
+            >
+              <span className="relative transition duration-300">
+                Discover Insights
+                <span
+                  className="absolute left-1/2 -bottom-[4px] w-0 h-[2px] transition-all duration-300 group-hover:w-full group-hover:left-0"
+                  style={{
+                    backgroundImage:
+                      "linear-gradient(to bottom, #552DDA 0%, #507BD0 100%,white 31%)",
+                  }}
+                ></span>
+              </span>
               <GoArrowUpRight />
-            </p>
-            <Image
-              src="/images/product2.png"
-              alt="product1"
-              width={561}
-              height={320}
-              className=" mt-5 lg:mt-11 absolute bottom-0 mx-[-15px]"
-            />
+            </Link>
+
+            <div className="absolute bottom-0 left-0 right-0 flex justify-center">
+              <Image
+                src="/images/product2.png"
+                alt="product1"
+                width={561}
+                height={320}
+                className="object-contain"
+              />
+            </div>
           </div>
         </div>
       </div>

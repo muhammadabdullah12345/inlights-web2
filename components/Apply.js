@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { CiLocationOn } from "react-icons/ci";
 import { GoArrowUpRight } from "react-icons/go";
 import { IoMdTime } from "react-icons/io";
@@ -14,10 +15,13 @@ function Apply() {
             thora Ista La Vista irtim gasiliase
           </p>
         </div>
-        <button className="flex items-center gap-2 py-2 px-5 border-[3px] border-[#5144DCF7] rounded-xl font-[500] hover:bg-[#5144DCF7] hover:shadow-[0px_0px_35.7px_0px_#5144DCF7] shadow-lg">
+        <Link
+          href="/AIEngineer"
+          className="flex items-center gap-2 py-2 px-5 border-[3px] border-[#5144DCF7] rounded-xl font-[500] hover:bg-[#5144DCF7] hover:shadow-[0px_0px_35.7px_0px_#5144DCF7] shadow-lg"
+        >
           <span>Apply</span>
           <GoArrowUpRight />
-        </button>
+        </Link>
       </div>
       <div className="flex gap-3 items-center mt-5">
         <button className="flex gap-1 items-center justify-center font-[400] text-[14px] border border-white py-[6px] px-[12px] rounded-full">

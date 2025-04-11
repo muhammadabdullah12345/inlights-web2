@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { GoArrowUpRight } from "react-icons/go";
 
 function Services() {
@@ -29,10 +30,22 @@ function Services() {
               Emerald Data Solutions is revolutionizing the way schools and
               universities manage their facilities.
             </p>
-            <p className="text-white text-[12px] mt-4 flex items-center gap-[6px] font-[400]">
-              <span>Discover insights</span>
+            <Link
+              className="text-white text-[12px] lg:text-[12px] mt-5 lg:mt-7 flex items-center gap-[6px] group"
+              href="/webdevelopment"
+            >
+              <span className="relative transition duration-300">
+                Discover Insights
+                <span
+                  className="absolute left-1/2 -bottom-[4px] w-0 h-[2px] transition-all duration-300 group-hover:w-full group-hover:left-0"
+                  style={{
+                    backgroundImage:
+                      "linear-gradient(to bottom, #552DDA 0%, #507BD0 100%,white 31%)",
+                  }}
+                ></span>
+              </span>
               <GoArrowUpRight />
-            </p>
+            </Link>
           </div>
 
           <div
@@ -54,10 +67,22 @@ function Services() {
               Emerald Data Solutions is revolutionizing the way schools and
               universities manage their facilities.
             </p>
-            <p className="text-white text-[12px] mt-4 flex items-center gap-[6px] font-[400]">
-              <span>Discover insights</span>
+            <Link
+              className="text-white text-[12px] lg:text-[12px] mt-5 lg:mt-7 flex items-center gap-[6px] group"
+              href="/UIUXdesign"
+            >
+              <span className="relative transition duration-300">
+                Discover Insights
+                <span
+                  className="absolute left-1/2 -bottom-[4px] w-0 h-[2px] transition-all duration-300 group-hover:w-full group-hover:left-0"
+                  style={{
+                    backgroundImage:
+                      "linear-gradient(to bottom, #552DDA 0%, #507BD0 100%,white 31%)",
+                  }}
+                ></span>
+              </span>
               <GoArrowUpRight />
-            </p>
+            </Link>
           </div>
 
           <div
@@ -79,10 +104,22 @@ function Services() {
               Emerald Data Solutions is revolutionizing the way schools and
               universities manage their facilities.
             </p>
-            <p className="text-white text-[12px] mt-4 flex items-center gap-[6px] font-[400]">
-              <span>Discover insights</span>
+            <Link
+              className="text-white text-[12px] lg:text-[12px] mt-5 lg:mt-7 flex items-center gap-[6px] group"
+              href="/"
+            >
+              <span className="relative transition duration-300">
+                Discover Insights
+                <span
+                  className="absolute left-1/2 -bottom-[4px] w-0 h-[2px] transition-all duration-300 group-hover:w-full group-hover:left-0"
+                  style={{
+                    backgroundImage:
+                      "linear-gradient(to bottom, #552DDA 0%, #507BD0 100%,white 31%)",
+                  }}
+                ></span>
+              </span>
               <GoArrowUpRight />
-            </p>
+            </Link>
           </div>
 
           <div
@@ -104,10 +141,22 @@ function Services() {
               Emerald Data Solutions is revolutionizing the way schools and
               universities manage their facilities.
             </p>
-            <p className="text-white text-[12px] mt-4 flex items-center gap-[6px] font-[400]">
-              <span>Discover insights</span>
+            <Link
+              className="text-white text-[12px] lg:text-[12px] mt-5 lg:mt-7 flex items-center gap-[6px] group"
+              href="/"
+            >
+              <span className="relative transition duration-300">
+                Discover Insights
+                <span
+                  className="absolute left-1/2 -bottom-[4px] w-0 h-[2px] transition-all duration-300 group-hover:w-full group-hover:left-0"
+                  style={{
+                    backgroundImage:
+                      "linear-gradient(to bottom, #552DDA 0%, #507BD0 100%,white 31%)",
+                  }}
+                ></span>
+              </span>
               <GoArrowUpRight />
-            </p>
+            </Link>
           </div>
         </div>
       </div>

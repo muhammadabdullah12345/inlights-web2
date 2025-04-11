@@ -9,7 +9,7 @@ function page() {
           backgroundImage: "url('/images/about.png')", // Path to your image
           backgroundSize: "cover", // Ensures the image covers the entire container
           backgroundPosition: "center", // Centers the image
-          height: "100vh", // Full height of the viewport
+          height: "100%", // Full height of the viewport
           width: "100%", // Full width
         }}
       >
@@ -36,7 +36,7 @@ function page() {
               src="/images/webdev.png"
               alt="web"
               height={395}
-              width={497}
+              width={407}
             />
           </div>
         </div>
@@ -53,16 +53,16 @@ function page() {
       >
         <h1 className="font-[400] text-[44px]">Our Tech Stack</h1>
         <div className="flex items-center justify-between gap-16">
-          <Image src="/images/nodejs1.png" alt="web" height={156} width={255} />
-          <Image src="/images/express.png" alt="web" height={156} width={255} />
-          <Image src="/images/react.png" alt="web" height={156} width={255} />
-          <Image src="/images/mongodb.png" alt="web" height={156} width={255} />
+          <Image src="/images/nodejs1.png" alt="web" height={156} width={205} />
+          <Image src="/images/express.png" alt="web" height={156} width={205} />
+          <Image src="/images/react.png" alt="web" height={156} width={205} />
+          <Image src="/images/mongodb.png" alt="web" height={156} width={205} />
         </div>
         <div className="flex items-center justify-between gap-16">
-          <Image src="/images/nodejs1.png" alt="web" height={156} width={255} />
-          <Image src="/images/express.png" alt="web" height={156} width={255} />
-          <Image src="/images/react.png" alt="web" height={156} width={255} />
-          <Image src="/images/mongodb.png" alt="web" height={156} width={255} />
+          <Image src="/images/nodejs1.png" alt="web" height={156} width={205} />
+          <Image src="/images/express.png" alt="web" height={156} width={205} />
+          <Image src="/images/react.png" alt="web" height={156} width={205} />
+          <Image src="/images/mongodb.png" alt="web" height={156} width={205} />
         </div>
       </div>
     </div>

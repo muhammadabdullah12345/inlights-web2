@@ -1,5 +1,6 @@
 import Header from "@/components/Header";
 import Image from "next/image";
+import Link from "next/link";
 import { GoArrowUpRight } from "react-icons/go";
 
 function page() {
@@ -19,11 +20,11 @@ function page() {
           <p className="bg-white text-[#414C5C] text-[10px] lg:text-[12px] rounded-[24px] lg:rounded-[48px] py-[4px] lg:py-[6px] px-2">
             Traffic Management
           </p>
-          <p className="font-[500] text-[84px] w-[949px] text-white text-center mt-8">
+          <p className="font-[500] text-[64px] w-[949px] text-white text-center mt-8">
             Manage City Traffic with
           </p>
           <p
-            className="text-[84px] font-[500]  bg-clip-text text-transparent"
+            className="text-[64px] font-[500]  bg-clip-text text-transparent"
             style={{
               backgroundImage:
                 "linear-gradient(to bottom, #552DDA 0%, #507BD0 100%,white 31%)",
@@ -31,7 +32,8 @@ function page() {
           >
             Artificial Intelligence
           </p>
-          <button
+          <Link
+            href="/contact"
             className="flex items-center justify-center py-2 px-3 sm:rounded-xl gap-1 sm:gap-2 text-white mt-10 bg-[#552DDA] rounded-[7px] text-[14px] sm:text-[16px] sm:px-4 sm:py-3 hover:bg-transparent border-[#552DDA] shadow-xl shadow-[#5144DCF7]  border-[3px] hover:!shadow-none mx-auto"
             style={{
               boxShadow: "0px 0px 35.7px 0px #5144DCF7",
@@ -39,7 +41,7 @@ function page() {
           >
             <span>Lets talk</span>
             <GoArrowUpRight />
-          </button>
+          </Link>
           <div className="absolute bottom-0">
             <Image
               src="/images/traf.png"

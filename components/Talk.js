@@ -1,7 +1,9 @@
+"use client";
 import { FiFacebook, FiInstagram, FiLinkedin } from "react-icons/fi";
 import { CiLinkedin } from "react-icons/ci";
 import { GoArrowUpRight } from "react-icons/go";
 import Image from "next/image";
+import Link from "next/link";
 
 function Talk() {
   return (
@@ -14,9 +16,9 @@ function Talk() {
         <p className="font-[400] text-[16px] opacity-70">together with us.</p>
         <div className="mt-[24px] bg-[#6b6a6a] h-[1px] w-[401px]"></div>
         <div className="py-[24px] flex items-center gap-[26px]">
-          <span>
+          <Link href="/">
             <Image src="/images/email.png" width={50} height={50} alt="phone" />
-          </span>
+          </Link>
           <div>
             <p className="font-[600] text-[20px]">Our email</p>
             <p className="font-[400] text-[16px] opacity-70">
@@ -25,23 +27,23 @@ function Talk() {
           </div>
         </div>
         <div className="py-[24px] flex items-center gap-[26px]">
-          <span>
+          <Link href="/">
             <Image src="/images/call.png" width={50} height={50} alt="phone" />
-          </span>
+          </Link>
           <div>
             <p className="font-[600] text-[20px]">Call us</p>
             <p className="font-[400] text-[16px] opacity-70">+92 3235353143</p>
           </div>
         </div>
         <div className="py-[24px] flex items-center gap-[26px]">
-          <span>
+          <Link href="/">
             <Image
               src="/images/location.png"
               width={50}
               height={50}
               alt="phone"
             />
-          </span>
+          </Link>
           <div>
             <p className="font-[600] text-[20px]">Find us</p>
             <p className="font-[400] text-[16px] opacity-70">
@@ -51,21 +53,25 @@ function Talk() {
         </div>
         <div className="mt-[8px] bg-[#6b6a6a] h-[1px] w-[401px]"></div>
         <div className="flex gap-[40px] opacity-70 py-[24px] items-center">
-          <span>
+          <Link href="/">
             <FiFacebook className="w-[23px] h-[23px]" />
-          </span>
-          <span>
+          </Link>
+          <Link href="/">
             <FiInstagram className="w-[23px] h-[23px]" />
-          </span>
-          <span>
+          </Link>
+          <Link href="/">
             <CiLinkedin className="w-[28px] h-[28px]" />
-          </span>
+          </Link>
         </div>
       </div>
-      <div
+      <form
         className="p-[40px] rounded-[20px] w-[695px] h-[522px]"
         style={{
           boxShadow: "0px 0px 35.7px 0px #5144DCF7",
+        }}
+        onSubmit={(e) => {
+          e.preventDefault();
+          alert("Form submitted!");
         }}
       >
         <div className="flex gap-14">
@@ -76,6 +82,7 @@ function Talk() {
             <input
               type="text"
               className="w-[280px] bg-transparent border-b border-[#DFDFDF] outline-none text-white"
+              required
             />
           </div>
           <div className="flex flex-col gap-[30px]">
@@ -83,6 +90,7 @@ function Talk() {
               Lastname
             </label>
             <input
+              required
               type="text"
               className="w-[280px] bg-transparent border-b border-[#DFDFDF] outline-none text-white"
             />
@@ -94,6 +102,7 @@ function Talk() {
               Email
             </label>
             <input
+              required
               type="text"
               className="w-[280px] bg-transparent border-b border-[#DFDFDF] outline-none text-white"
             />
@@ -103,6 +112,7 @@ function Talk() {
               Phone
             </label>
             <input
+              required
               type="text"
               className="w-[280px] bg-transparent border-b border-[#DFDFDF] outline-none text-white"
             />
@@ -113,6 +123,7 @@ function Talk() {
             Message
           </label>
           <input
+            required
             type="text"
             className=" w-full bg-transparent border-b border-[#DFDFDF] outline-none text-white"
           />
@@ -122,11 +133,12 @@ function Talk() {
           style={{
             boxShadow: "0px 0px 35.7px 0px #5144DCF7",
           }}
+          type="sumbit"
         >
           <span>Lets talk</span>
           <GoArrowUpRight />
         </button>
-      </div>
+      </form>
     </div>
   );
 }
