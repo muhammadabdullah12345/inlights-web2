@@ -82,7 +82,7 @@ function SuccessStories() {
   return (
     <div className="md:py-[80px] px-5 lg:px-[70px] md:pt-[120px] py-[30px] md:pb-[160px] font-manrope bg-[#050919]">
       <div className="text-white flex items-center justify-between">
-        <p className="text-[30px] lg:text-[40px] font-semibold text-white">
+        <p className="text-[22px] sm:text-[30px] lg:text-[40px] font-semibold text-white">
           Our Success Stories
         </p>
         <div className="flex gap-3 items-center justify-center">
@@ -103,15 +103,67 @@ function SuccessStories() {
         </div>
       </div>
 
-      <div className="mt-14 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      {/* Mobile view (stacked cards) */}
+      <div className="mt-8 lg:hidden flex flex-col gap-6">
         {getVisibleCards().map((story, index) => (
           <div
-            key={`${story.id}-${index}`}
+            key={`${story.id}-${index}-mobile`}
             className={`rounded-2xl bg-[#050919] overflow-hidden transition-opacity duration-300 ${
               isTransitioning ? "opacity-0" : "opacity-100"
             }`}
             style={{
-              boxShadow: " 0px 0px 30px 0px #1A36A3CC",
+              boxShadow: "0px 0px 30px 0px #1A36A3CC",
+            }}
+          >
+            <div className="relative">
+              <p className="flex items-center justify-center text-white z-[5] absolute inset-0">
+                {story.category}
+              </p>
+              <Image
+                src={story.image}
+                className="w-full rounded-t-[18px] object-cover blur-[2px]"
+                alt={`${story.category} Project`}
+                width={414}
+                height={174}
+              />
+              <div className="absolute inset-0 bg-black bg-opacity-60"></div>
+            </div>
+            <div className="h-auto rounded-b-[18px] text-white px-[16px] pt-[16px] pb-[20px]">
+              <p className="text-[16px] font-semibold">{story.title}</p>
+              <p className="opacity-70 pt-[12px] text-[12px] line-clamp-3">
+                {story.description}
+              </p>
+              <Link
+                className="text-white text-[12px] mt-[16px] flex items-center gap-[6px] group"
+                href={story.link}
+              >
+                <span className="relative transition duration-300">
+                  Read More
+                  <span
+                    className="absolute left-1/2 -bottom-[4px] w-0 h-[2px] transition-all duration-300 group-hover:w-full group-hover:left-0"
+                    style={{
+                      backgroundImage:
+                        "linear-gradient(to bottom, #552DDA 0%, #507BD0 100%, white 31%)",
+                    }}
+                  ></span>
+                </span>
+                <GoArrowUpRight />
+              </Link>
+            </div>
+          </div>
+        ))}
+      </div>
+
+      {/* Desktop/Tablet view (3-column grid) */}
+      <div className="mt-14 hidden lg:grid grid-cols-3 gap-6">
+        {getVisibleCards().map((story, index) => (
+          <div
+            key={`${story.id}-${index}-desktop`}
+            className={`rounded-2xl bg-[#050919] overflow-hidden transition-opacity duration-300 ${
+              isTransitioning ? "opacity-0" : "opacity-100"
+            }`}
+            style={{
+              boxShadow: "0px 0px 30px 0px #1A36A3CC",
             }}
           >
             <div className="relative flex items-center justify-center">
@@ -127,15 +179,13 @@ function SuccessStories() {
               />
               <div className="absolute inset-0 bg-black bg-opacity-60"></div>
             </div>
-            <div className="h-auto rounded-b-[18px] text-white px-[16px] pt-[16px] pb-[30px] lg:p-[24px] lg:pb-[40px]">
-              <p className="text-[16px] lg:text-[18px] font-semibold">
-                {story.title}
-              </p>
-              <p className="line-clamp-3 opacity-70 pt-[15px] text-[12px] lg:text-[14px]">
+            <div className="h-auto rounded-b-[18px] text-white px-[24px] pt-[24px] pb-[40px]">
+              <p className="text-[18px] font-semibold">{story.title}</p>
+              <p className="line-clamp-3 opacity-70 pt-[15px] text-[14px]">
                 {story.description}
               </p>
               <Link
-                className="text-[white] text-[12px] mt-[20px] flex items-center gap-[6px] group"
+                className="text-white text-[12px] mt-[20px] flex items-center gap-[6px] group"
                 href={story.link}
               >
                 <span className="relative transition duration-300">
@@ -144,11 +194,61 @@ function SuccessStories() {
                     className="absolute left-1/2 -bottom-[4px] w-0 h-[2px] transition-all duration-300 group-hover:w-full group-hover:left-0"
                     style={{
                       backgroundImage:
-                        "linear-gradient(to bottom, #552DDA 0%, #507BD0 100%,white 31%)",
+                        "linear-gradient(to bottom, #552DDA 0%, #507BD0 100%, white 31%)",
                     }}
                   ></span>
                 </span>
+                <GoArrowUpRight />
+              </Link>
+            </div>
+          </div>
+        ))}
+      </div>
 
+      {/* Tablet view (2-column grid) */}
+      <div className="mt-10 hidden sm:grid lg:hidden grid-cols-2 gap-4">
+        {getVisibleCards().map((story, index) => (
+          <div
+            key={`${story.id}-${index}-tablet`}
+            className={`rounded-2xl bg-[#050919] overflow-hidden transition-opacity duration-300 ${
+              isTransitioning ? "opacity-0" : "opacity-100"
+            }`}
+            style={{
+              boxShadow: "0px 0px 30px 0px #1A36A3CC",
+            }}
+          >
+            <div className="relative flex items-center justify-center">
+              <p className="flex items-center justify-center text-white z-[5] absolute">
+                {story.category}
+              </p>
+              <Image
+                src={story.image}
+                className="rounded-[18px] object-cover blur-[2px]"
+                alt={`${story.category} Project`}
+                width={414}
+                height={174}
+              />
+              <div className="absolute inset-0 bg-black bg-opacity-60"></div>
+            </div>
+            <div className="h-auto rounded-b-[18px] text-white px-[16px] pt-[16px] pb-[30px]">
+              <p className="text-[16px] font-semibold">{story.title}</p>
+              <p className="line-clamp-3 opacity-70 pt-[15px] text-[12px]">
+                {story.description}
+              </p>
+              <Link
+                className="text-white text-[12px] mt-[16px] flex items-center gap-[6px] group"
+                href={story.link}
+              >
+                <span className="relative transition duration-300">
+                  Read More
+                  <span
+                    className="absolute left-1/2 -bottom-[4px] w-0 h-[2px] transition-all duration-300 group-hover:w-full group-hover:left-0"
+                    style={{
+                      backgroundImage:
+                        "linear-gradient(to bottom, #552DDA 0%, #507BD0 100%, white 31%)",
+                    }}
+                  ></span>
+                </span>
                 <GoArrowUpRight />
               </Link>
             </div>

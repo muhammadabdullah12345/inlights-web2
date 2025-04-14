@@ -6,18 +6,21 @@ function page() {
     <div className="font-manrope">
       <div
         style={{
-          backgroundImage: "url('/images/about.png')", // Path to your image
-          backgroundSize: "cover", // Ensures the image covers the entire container
-          backgroundPosition: "center", // Centers the image
-          height: "100%", // Full height of the viewport
-          width: "100%", // Full width
+          backgroundImage: "url('/images/about.png')",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          height: "100%",
+          width: "100%",
         }}
+        className="min-h-screen"
       >
         <Header />
-        <div className=" text-white flex items-center justify-between px-[70px] ">
-          <div className="w-1/2">
-            <h1 className="font-[500] text-[50px]">UI/UX Design</h1>
-            <p className="font-[400] text-[18px] pt-5 opacity-70">
+        <div className="text-white px-6 md:px-[70px] py-10 md:py-20 flex flex-col md:flex-row md:items-center md:justify-between">
+          <div className="w-full md:w-1/2 mb-8 md:mb-0">
+            <h1 className="font-medium text-3xl sm:text-4xl md:text-[50px]">
+              UI/UX Design
+            </h1>
+            <p className="font-normal text-base md:text-[18px] pt-4 md:pt-5 opacity-70">
               Our product design services cover the entire cycle from
               conceptualization to the development of successful products,
               including strategic development, technical engineering, and
@@ -28,37 +31,69 @@ function page() {
               appeal to its intended audience.
             </p>
           </div>
-          <div className="pt-20">
+          <div className="pt-6 md:pt-20 flex justify-center">
             <Image
               src="/images/uiux.png"
               alt="design"
               height={545}
               width={741}
+              className="max-w-full h-auto"
             />
           </div>
         </div>
       </div>
 
       <div
-        className="bg-black text-white flex px-[175px] justify-center flex-col gap-16"
+        className="bg-black text-white px-6 md:px-[175px] py-12 flex justify-center flex-col gap-8 md:gap-16"
         style={{
-          backgroundImage: "url('/images/statsback.png')", // Path to your image
-          backgroundSize: "cover", // Ensures the image covers the entire container
-          backgroundPosition: "center", // Centers the image
-          height: "100vh", // Full height of the viewport
-          width: "100%", // Full width
+          backgroundImage: "url('/images/statsback.png')",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          minHeight: "100vh",
+          width: "100%",
         }}
       >
-        <h1 className="font-[400] text-[44px]">
+        <h1 className="font-normal text-3xl md:text-[44px] text-center md:text-left">
           Process that moves things forward
         </h1>
-        <div className="flex items-center justify-between gap-5">
-          <Image src="/images/grp1.png" alt="design" height={201} width={271} />
-          <Image src="/images/grp2.png" alt="design" height={201} width={271} />
-          <Image src="/images/grp3.png" alt="design" height={201} width={271} />
-          <Image src="/images/grp3.png" alt="design" height={201} width={271} />
+        <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-8 md:gap-5">
+          <div className="flex justify-center">
+            <Image
+              src="/images/grp1.png"
+              alt="design"
+              height={201}
+              width={271}
+              className="max-w-full h-auto"
+            />
+          </div>
+          <div className="flex justify-center">
+            <Image
+              src="/images/grp2.png"
+              alt="design"
+              height={201}
+              width={271}
+              className="max-w-full h-auto"
+            />
+          </div>
+          <div className="flex justify-center">
+            <Image
+              src="/images/grp3.png"
+              alt="design"
+              height={201}
+              width={271}
+              className="max-w-full h-auto"
+            />
+          </div>
+          <div className="flex justify-center">
+            <Image
+              src="/images/grp3.png"
+              alt="design"
+              height={201}
+              width={271}
+              className="max-w-full h-auto"
+            />
+          </div>
         </div>
-        {/* <Image src="/images/uiux2.png" alt="design" height={202} width={1137} /> */}
       </div>
     </div>
   );

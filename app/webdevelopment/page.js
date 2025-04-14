@@ -6,18 +6,21 @@ function page() {
     <div className="font-manrope">
       <div
         style={{
-          backgroundImage: "url('/images/about.png')", // Path to your image
-          backgroundSize: "cover", // Ensures the image covers the entire container
-          backgroundPosition: "center", // Centers the image
-          height: "100%", // Full height of the viewport
-          width: "100%", // Full width
+          backgroundImage: "url('/images/about.png')",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          height: "100%",
+          width: "100%",
         }}
+        className="min-h-screen"
       >
         <Header />
-        <div className=" text-white flex items-center justify-between px-[70px] py-28">
-          <div className="w-1/2">
-            <h1 className="font-[500] text-[50px]">Web Development</h1>
-            <p className="font-[400] text-[18px] pt-5 opacity-70">
+        <div className="text-white px-6 md:px-[70px] py-10 md:py-28 flex flex-col md:flex-row md:items-center md:justify-between">
+          <div className="w-full md:w-1/2 mb-8 md:mb-0">
+            <h1 className="font-medium text-3xl sm:text-4xl md:text-[50px]">
+              Web Development
+            </h1>
+            <p className="font-normal text-base md:text-[18px] pt-4 md:pt-5 opacity-70">
               Attracting and retaining customers in todays digital age requires
               a strong online presence. A website that is visually appealing,
               easy to navigate, and optimized for search engines is essential to
@@ -31,38 +34,108 @@ function page() {
               website remains up-to-date and secure.
             </p>
           </div>
-          <div>
+          <div className="flex justify-center">
             <Image
               src="/images/webdev.png"
               alt="web"
               height={395}
               width={407}
+              className="max-w-full h-auto"
             />
           </div>
         </div>
       </div>
+
       <div
-        className="bg-black text-white flex items-center justify-center flex-col gap-10"
+        className="bg-black text-white flex items-center justify-center flex-col gap-6 md:gap-10 py-12 px-4"
         style={{
-          backgroundImage: "url('/images/statsback.png')", // Path to your image
-          backgroundSize: "cover", // Ensures the image covers the entire container
-          backgroundPosition: "center", // Centers the image
-          height: "100vh", // Full height of the viewport
-          width: "100%", // Full width
+          backgroundImage: "url('/images/statsback.png')",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          minHeight: "100vh",
+          width: "100%",
         }}
       >
-        <h1 className="font-[400] text-[44px]">Our Tech Stack</h1>
-        <div className="flex items-center justify-between gap-16">
-          <Image src="/images/nodejs1.png" alt="web" height={156} width={205} />
-          <Image src="/images/express.png" alt="web" height={156} width={205} />
-          <Image src="/images/react.png" alt="web" height={156} width={205} />
-          <Image src="/images/mongodb.png" alt="web" height={156} width={205} />
+        <h1 className="font-normal text-3xl md:text-[44px] text-center">
+          Our Tech Stack
+        </h1>
+
+        <div className="grid grid-cols-2 md:flex md:flex-row md:items-center md:justify-between gap-4 md:gap-16">
+          <div className="flex justify-center">
+            <Image
+              src="/images/nodejs1.png"
+              alt="Node.js"
+              height={156}
+              width={205}
+              className="max-w-full h-auto"
+            />
+          </div>
+          <div className="flex justify-center">
+            <Image
+              src="/images/express.png"
+              alt="Express"
+              height={156}
+              width={205}
+              className="max-w-full h-auto"
+            />
+          </div>
+          <div className="flex justify-center">
+            <Image
+              src="/images/react.png"
+              alt="React"
+              height={156}
+              width={205}
+              className="max-w-full h-auto"
+            />
+          </div>
+          <div className="flex justify-center">
+            <Image
+              src="/images/mongodb.png"
+              alt="MongoDB"
+              height={156}
+              width={205}
+              className="max-w-full h-auto"
+            />
+          </div>
         </div>
-        <div className="flex items-center justify-between gap-16">
-          <Image src="/images/nodejs1.png" alt="web" height={156} width={205} />
-          <Image src="/images/express.png" alt="web" height={156} width={205} />
-          <Image src="/images/react.png" alt="web" height={156} width={205} />
-          <Image src="/images/mongodb.png" alt="web" height={156} width={205} />
+
+        <div className="grid grid-cols-2 md:flex md:flex-row md:items-center md:justify-between gap-4 md:gap-16">
+          <div className="flex justify-center">
+            <Image
+              src="/images/nodejs1.png"
+              alt="Node.js"
+              height={156}
+              width={205}
+              className="max-w-full h-auto"
+            />
+          </div>
+          <div className="flex justify-center">
+            <Image
+              src="/images/express.png"
+              alt="Express"
+              height={156}
+              width={205}
+              className="max-w-full h-auto"
+            />
+          </div>
+          <div className="flex justify-center">
+            <Image
+              src="/images/react.png"
+              alt="React"
+              height={156}
+              width={205}
+              className="max-w-full h-auto"
+            />
+          </div>
+          <div className="flex justify-center">
+            <Image
+              src="/images/mongodb.png"
+              alt="MongoDB"
+              height={156}
+              width={205}
+              className="max-w-full h-auto"
+            />
+          </div>
         </div>
       </div>
     </div>

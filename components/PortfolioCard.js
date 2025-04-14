@@ -7,13 +7,13 @@ import Image from "next/image";
 function PortfolioCard() {
   return (
     <div
-      className="flex items-stretch p-4 gap-5 bg-[#050919] rounded-2xl shadow-lg"
+      className="flex flex-col md:flex-row items-stretch p-4 gap-5 bg-[#050919] rounded-2xl shadow-lg"
       style={{
         boxShadow: "0px 0px 30px 0px #1A36A3CC",
       }}
     >
-      {/* Left Section (Image) */}
-      <div className="relative w-1/2 overflow-hidden rounded-lg py-2">
+      {/* Image Section - Full width on mobile, half width on desktop */}
+      <div className="relative w-full md:w-1/2 h-48 md:h-auto overflow-hidden rounded-lg py-2">
         <div className="h-full">
           <Image
             src="/images/bg-success2.png"
@@ -30,7 +30,7 @@ function PortfolioCard() {
         </div>
       </div>
 
-      {/* Right Section (Content) */}
+      {/* Content Section */}
       <div className="flex flex-col justify-between flex-1">
         {/* Title and Description */}
         <div>
