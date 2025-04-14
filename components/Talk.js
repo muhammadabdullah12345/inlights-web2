@@ -11,7 +11,7 @@ function Talk() {
       {/* Contact Information Section */}
       <div className="mb-10 lg:mb-0">
         <h1 className="font-[500] text-3xl md:text-4xl lg:text-[50px]">
-          Let's talk
+          Let&aps;s talk
         </h1>
         <div className="font-[400] text-sm lg:text-[16px] opacity-70">
           <p>Like our story? Contact now and create greatness</p>
