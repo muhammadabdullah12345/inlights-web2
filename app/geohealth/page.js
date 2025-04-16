@@ -5,7 +5,6 @@ import { GoArrowUpRight } from "react-icons/go";
 function page() {
   return (
     <div>
-      {/* Hero Section */}
       <div
         className="font-manrope"
         style={{
@@ -17,15 +16,15 @@ function page() {
         }}
       >
         <Header />
-        <div className="py-[176px] pl-[70px] grid grid-cols-1 md:grid-cols-2 px-4 md:px-0 sm:py-[100px] md:py-[176px] sm:pl-[30px] md:pl-[70px]">
+        <div className="py-[60px] pl-[15px] grid grid-cols-1 lg:grid-cols-2 px-4 md:px-0 sm:py-[100px]  sm:pl-[30px] md:pl-[70px]">
           <div>
-            <div className="w-[93px] h-[34px] bg-white rounded-[48px] text-[14px] py-[0.5px] px-[3px] flex items-center justify-center text-[#414C5C]">
+            <div className="lg:w-[93px] lg:h-[34px] bg-white rounded-[48px] text-[12px] lg:text-[14px] py-[0.5px] px-[3px] flex items-center justify-center text-[#414C5C] w-[80px] h-[30px]">
               GeoHealth
             </div>
-            <p className="text-white font-[700] text-[40px] sm:text-[50px] md:text-[66px] my-5">
+            <p className="text-white font-[700] text-[35px] sm:text-[50px] md:text-[66px] my-5">
               GeoHealth
             </p>
-            <p className="text-[16px] sm:text-[18px] font-[400] text-white opacity-70">
+            <p className="text-[14px] sm:text-[18px] font-[400] text-white opacity-70">
               An AI-powered advanced exercise monitoring system that helps users
               maintain proper form during workouts through advanced computer
               vision and machine learning techniques.
@@ -42,7 +41,7 @@ function page() {
           </div>
 
           {/* For desktop screens - keeping original layout and size */}
-          <div className="hidden md:block pt-10 px-12 relative">
+          <div className="hidden lg:block pt-10 px-12 relative">
             <Image
               src="/images/geohealth1.png"
               alt="geohealth"
@@ -60,7 +59,7 @@ function page() {
           </div>
 
           {/* For mobile screens - replicating stacked images */}
-          <div className="md:hidden pt-10 relative mt-8">
+          <div className="lg:hidden pt-10 relative mt-20 px-14">
             <div className="relative">
               <div className="bg-[#34A6FB] rounded-2xl p-4 pb-0">
                 <Image
@@ -75,8 +74,8 @@ function page() {
                 <Image
                   src="/images/geohealth2.png"
                   alt="geohealth"
-                  width={105}
-                  height={70}
+                  width={95}
+                  height={60}
                 />
               </div>
             </div>

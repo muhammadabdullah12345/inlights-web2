@@ -73,7 +73,12 @@ function Header() {
               </span>
               <IoIosArrowDown className="h-[10px] w-[10px]" />
             </div>
-            <div className="absolute hidden group-hover:block bg-[#050919] text-white rounded-[16px] mt-2 shadow-lg p-4 md:p-[24px] h-auto w-auto z-10">
+            <div
+              className="absolute hidden group-hover:block bg-[#050919] text-white rounded-[16px] mt-2 shadow-lg p-4 md:p-[24px] h-auto w-auto z-10"
+              style={{
+                boxShadow: " 0px 0px 30px 0px #1A36A3CC",
+              }}
+            >
               <p className="text-base lg:text-lg xl:text-[18px] font-semibold">
                 Custom Product Development
               </p>
@@ -166,7 +171,12 @@ function Header() {
               </span>
               <IoIosArrowDown className="h-[10px] w-[10px]" />
             </div>
-            <div className="absolute hidden group-hover:block bg-[#050919] text-white rounded-[16px] mt-2 shadow-lg p-4 md:p-[24px] h-auto w-auto z-10">
+            <div
+              className="absolute hidden group-hover:block bg-[#050919] text-white rounded-[16px] mt-2 shadow-lg p-4 md:p-[24px] h-auto w-auto z-10"
+              style={{
+                boxShadow: " 0px 0px 30px 0px #1A36A3CC",
+              }}
+            >
               <p className="text-base lg:text-lg xl:text-[18px] font-semibold">
                 Custom Product Development
               </p>
@@ -218,7 +228,12 @@ function Header() {
               </span>
               <IoIosArrowDown className="h-[10px] w-[10px]" />
             </div>
-            <div className="absolute hidden group-hover:block bg-[#050919] text-white rounded-[16px] mt-2 shadow-lg p-4 md:p-[24px] h-auto w-auto z-10 right-0 lg:right-auto">
+            <div
+              className="absolute hidden group-hover:block bg-[#050919] text-white rounded-[16px] mt-2 shadow-lg p-4 md:p-[24px] h-auto w-auto z-10 right-0 lg:right-auto"
+              style={{
+                boxShadow: " 0px 0px 30px 0px #1A36A3CC",
+              }}
+            >
               <p className="text-base lg:text-lg xl:text-[18px] font-semibold">
                 Custom Product Development
               </p>

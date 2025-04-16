@@ -5,7 +5,7 @@ import { GoArrowUpRight } from "react-icons/go";
 function Talent() {
   return (
     <>
-      <div className="py-0 px-10 bg-[#050919] hidden lg:block">
+      <div className="py-0 px-[70px] bg-[#050919] hidden lg:block">
         <div
           className="rounded-[32px] font-manrope flex items-center justify-between px-[60px]"
           style={{
@@ -17,7 +17,7 @@ function Talent() {
             //   top: "-39px",
           }}
         >
-          <div className="text-white text-[50px] font-[500]">
+          <div className="text-white text-[48px] font-[500]">
             We Are Looking for Exceptional Talent
           </div>
           <Link

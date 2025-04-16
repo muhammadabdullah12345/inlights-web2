@@ -104,7 +104,7 @@ function SuccessStories() {
       </div>
 
       {/* Mobile view (stacked cards) */}
-      <div className="mt-8 lg:hidden flex flex-col gap-6">
+      <div className="mt-8 sm:hidden flex flex-col gap-6">
         {getVisibleCards().map((story, index) => (
           <div
             key={`${story.id}-${index}-mobile`}

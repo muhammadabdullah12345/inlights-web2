@@ -18,9 +18,7 @@ function page() {
           <PortfolioCard />
           <PortfolioCard />
         </div>
-        <Talk2 />
       </div>
-      <Footer />
     </>
   );
 }

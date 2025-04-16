@@ -38,7 +38,7 @@ function Services() {
   return (
     <div className="bg-[#050919] py-[60px] px-[16px] min-h-[713px] w-full lg:px-[70px] font-manrope">
       <div className="text-white">
-        <p className="text-[32px] md:text-[40px] lg:text-[50px] font-[500] text-center">
+        <p className="text-[28px] md:text-[40px] lg:text-[50px] font-[500] text-center">
           Our Services
         </p>
 
@@ -60,7 +60,7 @@ function Services() {
               <p className="text-[20px] font-semibold mt-2 text-white">
                 {service.title}
               </p>
-              <p className="text-[14px] text-white mt-2 font-[400] opacity-70">
+              <p className="text-[12px] md:text-[14px] text-white mt-2 font-[400] opacity-70 line-clamp-3">
                 {service.description}
               </p>
               <Link

@@ -3,7 +3,7 @@ import Image from "next/image";
 
 function page() {
   return (
-    <div className="font-manrope">
+    <div className="font-manrope overflow-hidden">
       <div
         style={{
           backgroundImage: "url('/images/about.png')",
@@ -15,12 +15,10 @@ function page() {
         className="min-h-screen"
       >
         <Header />
-        <div className="text-white px-6 md:px-[70px] py-10 md:py-20 flex flex-col md:flex-row md:items-center md:justify-between">
-          <div className="w-full md:w-1/2 mb-8 md:mb-0">
-            <h1 className="font-medium text-3xl sm:text-4xl md:text-[50px]">
-              UI/UX Design
-            </h1>
-            <p className="font-normal text-base md:text-[18px] pt-4 md:pt-5 opacity-70">
+        <div className="text-white px-6 md:px-[70px] py-10 lg:py-28 flex flex-col lg:flex-row items-center justify-between md:gap-8">
+          <div className="w-full md:w-1/2 mb-8 md:mb-0 flex items-center justify-center flex-col">
+            <h1 className="font-medium text-xl lg:text-[50px]">UI/UX Design</h1>
+            <p className="font-normal text-base lg:text-[18px] pt-4 md:pt-5 opacity-70">
               Our product design services cover the entire cycle from
               conceptualization to the development of successful products,
               including strategic development, technical engineering, and
@@ -31,7 +29,7 @@ function page() {
               appeal to its intended audience.
             </p>
           </div>
-          <div className="pt-6 md:pt-20 flex justify-center">
+          <div className="flex justify-center h-[250px] w-[370px] lg:h-auto lg:w-auto">
             <Image
               src="/images/uiux.png"
               alt="design"
@@ -53,7 +51,7 @@ function page() {
           width: "100%",
         }}
       >
-        <h1 className="font-normal text-3xl md:text-[44px] text-center md:text-left">
+        <h1 className="font-normal text-2xl lg:text-[44px] text-center md:text-left">
           Process that moves things forward
         </h1>
         <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-8 md:gap-5">

@@ -1,4 +1,6 @@
+import Footer from "@/components/Footer";
 import Header from "@/components/Header";
+import Talk2 from "@/components/Talk2";
 
 export const metadata = {
   title: "Create Next App",
@@ -10,6 +12,8 @@ export default function RootLayout({ children }) {
     <div className="bg-[#03030E]">
       <Header />
       {children}
+      <Talk2 />
+      <Footer />
     </div>
   );
 }

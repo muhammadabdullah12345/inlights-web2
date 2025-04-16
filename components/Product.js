@@ -15,9 +15,9 @@ function Product() {
         <div className="flex flex-col lg:flex-row items-center justify-center gap-6 md:gap-8 lg:gap-[24px] mt-6 sm:mt-8 lg:mt-10">
           {/* First Product Card */}
           <div
-            className="px-4 sm:px-5 lg:px-[34px] pt-4 sm:pt-5 lg:pt-[34px] pb-0 bg-[#050919] my-4 rounded-[16px] sm:rounded-[20px] lg:rounded-[34px] relative w-full lg:w-[50%] h-[480px] sm:h-[520px] md:h-[550px] lg:h-[591px] shadow-xl overflow-hidden"
+            className="px-4 sm:px-5 lg:px-[34px] pt-4 sm:pt-5 lg:pt-[34px] pb-0 bg-[#050919] my-4 rounded-[16px] sm:rounded-[20px] lg:rounded-[34px] relative w-full lg:w-[50%] h-[410px] sm:h-[520px] md:h-[550px] lg:h-[591px] shadow-xl overflow-hidden"
             style={{
-              boxShadow: "0px 0px 30px 0px #1A36A3CC",
+              boxShadow: "0px 0px 25px 0px #1A36A3CC",
             }}
           >
             <span className="bg-white text-[#414C5C] text-[10px] lg:text-[12px] rounded-[24px] lg:rounded-[48px] py-[4px] lg:py-[6px] px-2">
@@ -60,9 +60,9 @@ function Product() {
 
           {/* Second Product Card */}
           <div
-            className="px-4 sm:px-5 lg:px-[34px] pt-4 sm:pt-5 lg:pt-[34px] pb-0 bg-[#050919] my-4 rounded-[16px] sm:rounded-[20px] lg:rounded-[34px] relative w-full lg:w-[50%] h-[480px] sm:h-[520px] md:h-[550px] lg:h-[591px] shadow-xl overflow-hidden"
+            className="px-4 sm:px-5 lg:px-[34px] pt-4 sm:pt-5 lg:pt-[34px] pb-0 bg-[#050919] my-4 rounded-[16px] sm:rounded-[20px] lg:rounded-[34px] relative w-full lg:w-[50%] h-[410px] sm:h-[520px] md:h-[550px] lg:h-[591px] shadow-xl overflow-hidden"
             style={{
-              boxShadow: "0px 0px 30px 0px #1A36A3CC",
+              boxShadow: "0px 0px 25px 0px #1A36A3CC",
             }}
           >
             <span className="bg-white text-[#414C5C] text-[10px] lg:text-[12px] rounded-[24px] lg:rounded-[48px] py-[4px] lg:py-[6px] px-2">

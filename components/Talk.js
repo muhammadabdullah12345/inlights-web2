@@ -7,15 +7,16 @@ import Link from "next/link";
 
 function Talk() {
   return (
-    <div className="py-8 px-4 md:py-16 lg:py-[140px] md:px-8 lg:px-[70px] font-manrope bg-[#050919] text-white flex flex-col lg:flex-row lg:justify-between">
+    <div className="py-8 px-4 md:py-16 lg:py-[140px] md:px-8 lg:px-[70px] font-manrope bg-[#050919] text-white flex flex-col xl:flex-row xl:justify-between lg:gap-20 lg:items-center xl:gap-16">
       {/* Contact Information Section */}
       <div className="mb-10 lg:mb-0">
-        <h1 className="font-[500] text-3xl md:text-4xl lg:text-[50px]">
-          Let&aps;s talk
+        <h1 className="font-[500] text-2xl md:text-4xl lg:text-[50px]">
+          Let&apos;s talk
         </h1>
-        <div className="font-[400] text-sm lg:text-[16px] opacity-70">
-          <p>Like our story? Contact now and create greatness</p>
-          <p>together with us.</p>
+        <div className="font-[400] text-[12px] lg:text-[16px] opacity-70 my-8">
+          <p>
+            Like our story? Contact now and create greatness together with us.
+          </p>
         </div>
         <div className="mt-4 lg:mt-[24px] bg-[#6b6a6a] h-[1px] w-full lg:w-[401px]"></div>
 
@@ -32,7 +33,7 @@ function Talk() {
           </Link>
           <div>
             <p className="font-[600] text-base lg:text-[20px]">Our email</p>
-            <p className="font-[400] text-sm lg:text-[16px] opacity-70">
+            <p className="font-[400] text-[14px] lg:text-[16px] opacity-70">
               admin@inlights.com.pk
             </p>
           </div>
@@ -50,7 +51,7 @@ function Talk() {
           </Link>
           <div>
             <p className="font-[600] text-base lg:text-[20px]">Call us</p>
-            <p className="font-[400] text-sm lg:text-[16px] opacity-70">
+            <p className="font-[400] text-[14px] lg:text-[16px] opacity-70">
               +92 3235353143
             </p>
           </div>
@@ -68,7 +69,7 @@ function Talk() {
           </Link>
           <div>
             <p className="font-[600] text-base lg:text-[20px]">Find us</p>
-            <p className="font-[400] text-sm lg:text-[16px] opacity-70">
+            <p className="font-[400] text-[14px] lg:text-[16px] opacity-70">
               Open Google Maps
             </p>
           </div>
@@ -94,7 +95,7 @@ function Talk() {
       <form
         className="p-6 md:p-8 lg:p-[40px] rounded-[20px] w-full lg:w-[695px] h-auto lg:h-[522px]"
         style={{
-          boxShadow: "0px 0px 35.7px 0px #5144DCF7",
+          boxShadow: "0px 0px 25px 0px #1A36A3CC",
         }}
         onSubmit={(e) => {
           e.preventDefault();

@@ -5,7 +5,7 @@ import { GoArrowUpRight } from "react-icons/go";
 
 function Footer() {
   return (
-    <div className="pt-[80px] pb-[30px] px-5 lg:px-[120px] bg-[#0D0D1D] text-white font-manrope">
+    <div className="pt-[80px] pb-[30px] px-5 lg:px-[70px] bg-[#0D0D1D] text-white font-manrope">
       {/* Logo and Address Section */}
       <div className="flex flex-col lg:flex-row justify-between">
         <div className="mb-10 lg:mb-0">
@@ -21,7 +21,7 @@ function Footer() {
         </div>
 
         {/* Navigation Links Section */}
-        <div className="flex flex-col sm:flex-row gap-8 sm:gap-16 mb-10 lg:mb-0">
+        <div className="flex flex-row gap-16 sm:gap-16 mb-10 lg:mb-0">
           <div className="flex flex-col gap-4 text-[#B5B5B5] text-[14px]">
             <span className="text-[16px] text-white font-medium">
               Quick Links
@@ -155,13 +155,13 @@ function Footer() {
         </div>
         <div className="flex gap-5">
           <a href="" aria-label="YouTube">
-            <div className="w-[48px] h-[48px] rounded-full border border-white flex items-center justify-center">
-              <FaYoutube className="w-[23px] h-[23px] text-white" />
+            <div className="w-[40px] h-[40px] lg:w-[46px] lg:h-[46px] rounded-full border border-white flex items-center justify-center">
+              <FaYoutube className="w-[16px] h-[16px] lg:w-[20px] lg:h-[20px] text-white" />
             </div>
           </a>
           <a href="" aria-label="LinkedIn">
-            <div className="w-[48px] h-[48px] rounded-full border border-white flex items-center justify-center">
-              <FaLinkedin className="w-[23px] h-[23px] text-white" />
+            <div className="w-[40px] h-[40px] lg:w-[46px] lg:h-[46px] rounded-full border border-white flex items-center justify-center">
+              <FaLinkedin className="w-[20px] h-[20px] text-white" />
             </div>
           </a>
         </div>
@@ -169,7 +169,7 @@ function Footer() {
 
       {/* Footer Bottom Section */}
       <div className="mt-[24px] bg-[#6b6a6a] h-[1px] w-full"></div>
-      <div className="flex flex-col sm:flex-row items-center justify-between text-[14px] mt-[24px] gap-2">
+      <div className="flex flex-row items-center justify-between text-[12px] lg:text-[14px] mt-[24px] gap-2">
         <span>support@inlights.com</span>
         <span>
           &copy; {new Date().getFullYear()} Inlights. All rights reserved

@@ -15,6 +15,9 @@ module.exports = {
         manrope: ["var(--font-manrope)"],
         mono: ["var(--font-roboto-mono)"],
       },
+      screens: {
+        xl: "1200px", // Custom extra large screen
+      },
     },
   },
   plugins: [],

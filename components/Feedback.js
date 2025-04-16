@@ -73,7 +73,7 @@ function GeoFeedback() {
   return (
     <div className="pb-10 px-3 sm:px-5 lg:px-16 bg-[#050919] font-manrope pt-0">
       <div className="flex justify-center items-center">
-        <div className="font-[400] text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-white text-center max-w-4xl">
+        <div className="font-[400] text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-white text-center max-w-4xl my-8 md:my-0">
           Don&apos;t take our word, see what customers say about us
         </div>
       </div>
@@ -110,10 +110,10 @@ function GeoFeedback() {
         </div>
 
         {/* Mobile layout: navigation buttons appear side by side at the bottom */}
-        <div className="flex items-center justify-center gap-4 mt-8">
+        <div className="flex items-center justify-center gap-4 mt-8 ">
           <button
             onClick={prevTestimonial}
-            className="bg-gray-700 p-2 rounded-full text-white hover:bg-gray-600 disabled:opacity-50"
+            className="bg-gray-700 p-2 rounded-full text-white hover:bg-gray-600 disabled:opacity-50 lg:hidden"
             disabled={isAnimating}
             aria-label="Previous testimonial"
           >
@@ -136,7 +136,7 @@ function GeoFeedback() {
 
           <button
             onClick={nextTestimonial}
-            className="bg-gray-700 p-2 rounded-full text-white hover:bg-gray-600 disabled:opacity-50"
+            className="bg-gray-700 p-2 rounded-full text-white hover:bg-gray-600 disabled:opacity-50 lg:hidden"
             disabled={isAnimating}
             aria-label="Next testimonial"
           >

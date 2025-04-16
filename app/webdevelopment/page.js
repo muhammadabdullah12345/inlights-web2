@@ -15,12 +15,12 @@ function page() {
         className="min-h-screen"
       >
         <Header />
-        <div className="text-white px-6 md:px-[70px] py-10 md:py-28 flex flex-col md:flex-row md:items-center md:justify-between">
-          <div className="w-full md:w-1/2 mb-8 md:mb-0">
-            <h1 className="font-medium text-3xl sm:text-4xl md:text-[50px]">
+        <div className="text-white px-6 md:px-[70px] py-10 lg:py-28 flex flex-col lg:flex-row items-center justify-between md:gap-8">
+          <div className="w-full md:w-1/2 mb-8 md:mb-0 flex items-center justify-center flex-col">
+            <h1 className="font-medium text-xl lg:text-[50px]">
               Web Development
             </h1>
-            <p className="font-normal text-base md:text-[18px] pt-4 md:pt-5 opacity-70">
+            <p className="font-normal text-base lg:text-[18px] pt-4 md:pt-5 opacity-70">
               Attracting and retaining customers in todays digital age requires
               a strong online presence. A website that is visually appealing,
               easy to navigate, and optimized for search engines is essential to
@@ -34,7 +34,7 @@ function page() {
               website remains up-to-date and secure.
             </p>
           </div>
-          <div className="flex justify-center">
+          <div className="flex justify-center h-[200px] w-[230px] lg:h-auto lg:w-auto">
             <Image
               src="/images/webdev.png"
               alt="web"
@@ -60,7 +60,7 @@ function page() {
           Our Tech Stack
         </h1>
 
-        <div className="grid grid-cols-2 md:flex md:flex-row md:items-center md:justify-between gap-4 md:gap-16">
+        <div className="grid grid-cols-2 md:flex md:flex-row md:items-center md:justify-between gap-4 md:gap-16 px-7 md:px-0">
           <div className="flex justify-center">
             <Image
               src="/images/nodejs1.png"
@@ -99,7 +99,7 @@ function page() {
           </div>
         </div>
 
-        <div className="grid grid-cols-2 md:flex md:flex-row md:items-center md:justify-between gap-4 md:gap-16">
+        <div className="grid grid-cols-2 md:flex md:flex-row md:items-center md:justify-between gap-4 md:gap-16 px-7 md:px-0">
           <div className="flex justify-center">
             <Image
               src="/images/nodejs1.png"
