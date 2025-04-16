@@ -71,7 +71,7 @@ function GeoFeedback() {
   }, [isAnimating]);
 
   return (
-    <div className="pb-10 px-3 sm:px-5 lg:px-16 bg-[#050919] font-manrope pt-0">
+    <div className="pb-10 px-3 sm:px-5 lg:px-16 bg-[#050919] font-manrope pt-0 2xl:py-40">
       <div className="flex justify-center items-center">
         <div className="font-[400] text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-white text-center max-w-4xl my-8 md:my-0">
           Don&apos;t take our word, see what customers say about us

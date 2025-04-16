@@ -17,6 +17,7 @@ module.exports = {
       },
       screens: {
         xl: "1200px", // Custom extra large screen
+        "2xl": "2200px",
       },
     },
   },

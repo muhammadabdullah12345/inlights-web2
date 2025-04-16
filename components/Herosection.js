@@ -6,12 +6,12 @@ import { GoArrowUpRight } from "react-icons/go";
 
 function Herosection() {
   return (
-    <div className="flex items-center justify-center md:mt-[50px] mt-[30px] flex-col text-center px-[16px] z-10 relative font-manrope max-h-screen">
-      <p className="md:text-[45px] text-[28px] font-[500] text-white leading-tight">
+    <div className="flex items-center justify-center md:mt-[50px] mt-[30px] flex-col text-center px-[16px] z-10 relative font-manrope max-h-screen ">
+      <p className="md:text-[45px] text-[28px] font-[500] text-white leading-tight 2xl:text-[70px]">
         Redefining Smart Cities using
       </p>
       <p
-        className="font-[500] md:text-[45px] text-[28px] bg-clip-text text-transparent leading-tight"
+        className="font-[500] md:text-[45px] text-[28px] bg-clip-text text-transparent leading-tight 2xl:text-[70px]"
         style={{
           backgroundImage:
             "linear-gradient(to bottom, #552DDA 0%, #507BD0 100%,white 31%)",

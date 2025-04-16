@@ -38,7 +38,7 @@ function Header() {
 
   return (
     <div className="relative z-50 font-manrope">
-      <div className="flex items-center justify-between px-4 sm:px-6 md:px-10 lg:px-16 xl:px-28 py-4 md:py-5 text-white cursor-pointer bg-transparent">
+      <div className="flex items-center justify-between px-4 sm:px-6 md:px-10 lg:px-16 xl:px-28 py-4 md:py-5 text-white cursor-pointer bg-transparent 2xl:justify-center 2xl:gap-40">
         <Link href="/">
           <Image
             src="/images/logo.png"
